@@ -1,0 +1,3312 @@
+Examen de licenţă 2025 - Informatică
+– Exemple subiecte –
+
+Notă pentru student, i:
+Proba de cunoştinţe a examenului de licenţă din sesiunile iulie/septembrie 2025 se va
+desfăs, ura sub forma unei examinări scrise cu 30 de întrebări grilă cu răspunsuri multiple pe
+o durată de maxim 2 ore. Tematicile din care vor fi formulate întrebările sunt: Structuri
+discrete şi algoritmi (proiectarea s, i analiza algoritmilor, structuri de date, teoria grafurilor,
+logică computat, ională, limbaje formale); Limbaje de programare şi inginerie software (limbaje de programare (Python, C, C++, Java), proiectarea aplicat, iilor software, baze de date);
+Sisteme de calcul (arhitectura calculatoarelor, sisteme de operare, reţele de calculatoare).
+Pentru neclarităţi privind enunţurile sau răspunsurile din acest document puteţi să vă adresaţi
+celor care au propus întrebările pentru fiecare secţiune şi la flavia.micota@e-uvt.ro.
+Tematica 1: Structuri discrete s, i algoritmi
+• Proiectarea şi analiza algoritmilor
+– Daniela Zaharie (daniela.zaharie@e-uvt.ro)
+– Adrian Spătaru (adrian.spataru@e-uvt.ro)
+• Structuri de date
+– Cosmin Bonchiş (cosmin.bonchis@e-uvt.ro)
+– Adrian Spătaru (adrian.spataru@e-uvt.ro)
+• Teoria grafurilor
+– Mircea Marin (mircea.marin@e-uvt.ro)
+– Isabela Drămnesc (isabela.dramnesc@e-uvt.ro)
+• Logică computaţională
+– Adrian Crăciun (adrian.craciun@e-uvt.ro)
+– Alexandra Fortiş (alexandra.fortis@e-uvt.ro)
+• Limbaje formale
+– Mircea Drăgan (mircea.dragan@e-uvt.ro)
+– Mădălina Eraşcu (madalina.erascu@e-uvt.ro)
+– Alexandra Fortiş (alexandra.fortis@e-uvt.ro)
+1
+
+TEMATICĂ
+
+Tematica 2: Limbaje de programare s, i inginerie software
+• Limbaje de programare (Python, C, C++, Java)
+– Flavia Micota (flavia.micota@e-uvt.ro)
+– Daniel Pop (daniel.pop@e-uvt.ro)
+– Todor Ivas, cu (todor.ivascu@e-uvt.ro)
+• Proiectarea aplicaţiilor software
+– Cristina Mîndruţă (cristina.mindruta@e-uvt.ro)
+– Mădălina Eras, cu (madalina.erascu@e-uvt.ro)
+• Baze de date
+– Ioan Drăgan (ioan.dragan@e-uvt.ro)
+– Daniel Pop (daniel.pop@e-uvt.ro)
+Tematica 3: Sisteme de calcul
+• Arhitectura calculatoarelor
+– Liviu Mafteiu Scai (liviu.mafteiu@e-uvt.ro)
+– Cristian Cira (cristian.cira@e-uvt.ro)
+• Sisteme de operare
+– Florin Fortiş (florin.fortis@e-uvt.ro)
+– Ciprian Pungilă (ciprian.pungila@e-uvt.ro)
+– Darius Galis, (darius.galis@e-uvt.ro)
+• Reţele de calculatoare
+– Laurent, iu Coroban (laurentiu.coroban@e-uvt.ro)
+– Mihail Găianu (mihail.gaianu@e-uvt.ro)
+
+Tematică
+Tematica 1: Structuri discrete s, i algoritmi
+Tematica include teme discutate la cursurile de: algoritmi, structuri de date, teoria grafurilor şi
+combinatorică, logică, limbaje formale:
+• Algoritmică: analiza complexităt, ii algoritmilor, algoritmi de căutare, algoritmi de sortare, algoritmi recursivi, tehnici de proiectare a algoritmilor (divide et impera, greedy, programare dinamică)
+• Structuri de date: stive, cozi, liste, arbori, dict, ionare
+• Teoria grafurilor s, i combinatorică:
+
+2
+
+TEMATICĂ
+– Elemente de combinatorică: principii de numărare; numere Stirling; grupuri de simetrii,
+teoria lui Polya.
+– Elemente de Teoria Grafurilor: noţiuni şi definiţii de bază; Clase speciale de grafuri; conectivitate, distanţe drumuri minime; arbori de acoperire; reţele de transport, fluxuri; colorări.
+• Logică computat, ională: Recunoaşterea/parcurgerea expresiilor (logica propoziţiilor/predicatelor).
+Semantica, calculul valorii expresiilor (logica propoziţiilor/predicatelor). Tabele de adevăr (logica
+propoziţiilor). Validitate/satisfiabilitate, consecinţă logică, echivalenţă logică (logica propoziţiilor/predicatelor). Raţionament, rolul raţionamentului. Teorema de deducţie. Forme normale ale
+formulelor propoziţionale. Rezoluţie, DP, DPLL. Raţionament în stil natural (logica propoziţiilor/logica predicatelor). Aplicaţii ale logicii: design de circuite digitale.
+• Limbaje formale s, i teoria automatelor: limbaje, gramatici, expresii regulate s, i automate finite
+Tematica 2: Limbaje de programare şi inginerie software
+Tematica include teme discutate la disciplinele de: Programare (Python, C, C++, Java), inginerie
+software şi baze de date:
+• Limbaje de programare: tipuri de date, clase, obiecte, relat, ii între clase (mos, tenire, agregare,
+compozit, ie, dependent, ă)
+• Baze de date: modelarea unei baze de date, forme normale, interogări SQL
+• Inginerie Software: activităt, ile procesului de dezvoltare de software, metode agile de dezvoltare
+de software, diagrame UML.
+Tematica 3: Sisteme de calcul
+Tematica include teme discutate la disciplinele: arhitectura calculatoarelor, sisteme de operare,
+reţele de calculatoare:
+• Arhitectura calculatoarelor: structura unui sistem de calcul, unitatea centrală de prelucrare,
+memoria unui sistem de calcul, dispozitivele periferice ale unui sistem de calcul, magistralele
+unui sistem de calcul, reprezentarea numerelor în calculator
+• Sisteme de operare: accesul concurent la resurse (problema sect, iunii critice), probleme de comunicare, algoritmi de planificare CPU, algoritmi de paginare, algoritmi de detecţie s, i evitare a
+impasului
+• Ret, ele de calculatoare: încapsularea protocoalelor, comunicare orientată pe datagrame, retransmisie
+
+3
+
+BIBLIOGRAFIE
+
+Bibliografie
+• Bruno Buchberger, Logic for Computer Science, Unpublished Lecture Notes, Copyright Bruno
+Buchberger, 1991, http://staff.fmi.uvt.ro/ adrian.craciun/lectures/logica/pdf/buchberger-logic.pdf
+• Mordechai Ben-Ari, Mathematical Logic for Computer Science, Ed. Springer Verlag London, 2009
+• Adrian Crăciun, Logic for Computer Science (note de curs), http://staff.fmi.uvt.ro/˜adrian.craciun
+• Mircea Marin, Graph Theory and Combinatorics (note de curs), http://staff.fmi.uvt.ro/˜mircea.marin
+• Th. Cormen, Ch. Leiserson, R. Rivest, C. Stein, Introduction in algorithms, Ed. MIT Press,
+2008; (trad. lb română) Ed. Teora, 1995
+• Allen B. Downey, Chris Mayfield, Think Java - How to Think Like a Computer Scientis, Copyright
+Allen Downe, 2012
+• H. Garcia-Molina, J. Widom, Database Systems: The Complete Book, ED. Pearson Education
+Inc, 2009
+• John M. Harris, Jeffry L. Hirst, Michael J. Mossinghoff, Combinatorics and Graph Theory, Ed.
+Springer Science+Business Media, 2008
+• J. E. Hopcroft, R. Motwani, J. D. Ullman, Introduction to Automata Theory, Languages, and
+Computation (3rd Edition), Addison-Wesley Longman Publishing Co., Inc., 2006
+• I. Jacobson, H. Lawson, Pan-Wei Ng, P.E. McMahon, M. Goedicke, The Essentials of Modern
+Software Engineering, ACM Books, 2019
+• B. Kernighan, D. Ritchie, The C Programming Language, Ed. Addison-Wesley, 2001
+• D. C. Kozen, Automata and Computability, Ed. Springer, 1997
+• Dragos-Radu Popescu, Combinatorica si Teoria Grafurilor, Ed. Societatea de S, tiint, e Matematice
+din Romania, 2005
+• Ian Sommerville, Software Engineering 9-th ed., Ed. Pearson Education Limited, 2016
+• Ian Sommerville, Engineering software products, Pearson Education, 2020
+• Bjarne Stroustrup, The C++ Programming Language, ED. Pearson Education, 2005
+• Andrew S. Tanenbaum, Todd Austin, Structured Computer Organization, Ed. Pearson, 2013
+• Andrew S. Tanenbaum, Computer Networks, Ed. Pearson, 2011
+• Andrew S. Tanenbaum, Modern Operating Systems, Ed. Pearson, 2009
+• http://agilemodeling.com/essays/umlDiagrams.htm
+4
+
+STRUCTURI DISCRETE S, I ALGORITMI
+
+Algoritmi s, i structuri de date
+1. Care dintre următoarele afirmaţii este/sunt adevărată/adevărate pentru algoritmul corespunzător
+funcţiei de mai jos (se consideră că x este un tablou unidimensional cu n elemente)
+def alg(x):
+n=len(x)
+nr=0
+i=0
+while(i<n):
+k=0
+while(((i+k)<n)and(x[i+k]>0)):
+k=k+1
+if (nr<k):
+nr=k
+i=i+k+1
+return(nr)
+(a) Algoritmul returnează numărul de elemente pozitive din x
+(b) Algoritmul returnează numărul de elemente din cea mai lungă subsecvenţă cu elemente pozitive din x
+(c) Algoritmul are ordinul de complexitate O(n2 )
+(d) Algoritmul are ordinul de complexitate O(n)
+(e) Algoritmul are ordinul de complexitate O(n · k)
+2. Care dintre următoarele afirmaţii este/sunt adevărată/adevărate pentru algoritmul corespunzător
+funcţiei de mai jos (se consideră că a este un tablou unidimensional cu n elemente)
+def transform(a):
+n=len(a)
+for i in range(0,n-1):
+if (a[i]<a[i+1]):
+a[i], a[i+1] = a[i+1], a[i]
+return(a)
+(a) Algoritmul sortează descrescător tabloul a
+(b) După aplicarea algoritmului, tabloul a satisface proprietatea a[i] ≥ a[n − 1] pentru 0 ≤ i < n
+(c) Algoritmul sortează crescător tabloul a
+(d) După aplicarea algoritmului, tabloul a satisface proprietatea a[i] ≤ a[n − 1] pentru 0 ≤ i < n
+5
+
+STRUCTURI DISCRETE S, I ALGORITMI
+3. Se consideră două valori naturale a şi b şi algoritmul descris prin (// specifică operat, ia de determinare a câtului împărt, irii întregi):
+def alg(a,b):
+if ((a==0)or(b==0)):
+return(0)
+elif (a%2 ==0):
+return(alg(a//2, 2*b))
+else:
+return(alg(a//2, 2*b)+b)
+
+Care dintre următoarele afirmaţii este/sunt adevărată/adevărate?
+(a) este posibil ca succesiunea de apeluri recursive să nu se termine
+(b) algoritmul returnează întotdeauna 0
+(c) algoritmul returnează produsul a*b dacă a este par şi a*b+b dacă a este impar
+(d) algoritmul returnează produsul a*b indiferent de paritatea lui a
+(e) dacă a > 2b atunci numărul de operaţii de înmulţire efectuate este mai mic în cazul apelului
+alg(b,a) decât în cazul apelului alg(a,b).
+4. Se consideră un tablou unidimensional, a[0..n−1], cu n = 1010 valori numerice şi se pune problema
+determinării primelor 10 valori în ordine crescătoare. Care dintre următoarele abordări asigură
+faptul că a[0..9] cont, ine cele mai mici 10 elemente în ordine crescătoare şi este mai eficientă?
+(a) se sortează a[0..n − 1] crescător folosind algoritmul quicksort
+(b) se sortează part, ial a aplicănd algoritmul de sortare prin insert, ie în care ciclul exterior for i
+in range(1,n) se înlocuieşte cu for i in range(1,11)
+(c) se sortează part, ial a aplicând algoritmul de sortare prin select, ie în care ciclul exterior for i
+in range(0,n-1) se înlocuieşte cu for i in range(0,10)
+5. Se consideră algoritmul alg apelat pentru un număr natural n şi se notează cu T (n) numărul de
+operaţii de adunare efectuate.
+def alg(n):
+if (n<2):
+return(n)
+else:
+return(alg(n//2)+n%2)
+
+Care dintre următoarele afirmaţii este(sunt) adevarată(e)?
+6
+
+STRUCTURI DISCRETE S, I ALGORITMI
+(a) Algoritmul returnează câte cifre impare are numărul n
+(b) Algoritmul returnează numărul de cifre egale cu 1 din reprezentarea binară a lui n
+(c) T (n) = 1 dacă n < 2 şi T (n) = T ([n/2]) + n M OD 2 dacă n ≥ 2
+(d) T (n) = 0 dacă n < 2 şi T (n) = T ([n/2]) + 1 dacă n ≥ 2
+(e) T (n) aparţine lui O(n)
+(f) T (n) aparţine lui O(log n)
+6. Algoritmul de sortare rapidă este cel mai potrivit pentru:
+(a) sortarea unei liste mari cu elemente aleatoare
+(b) sortarea unei liste aproape ordonate
+(c) sortarea unei liste scurte
+(d) nu este potrivit pentru nici un fel de sortare
+7. Se consideră şirul lui Fibonacci dat de relaţia de recurenţă F0 = 0, F1 = 1 şi Fn+1 = Fn + Fn−1 .
+De câte ori este evaluat F2 pentru a calcula F5 în cazul calculului termenului Fn în mod recursiv.
+(a) de 3 ori
+
+(b) o dată
+
+(c) de 4 ori
+
+(d) de 5 ori
+
+8. Care din următoarele afirmaţii NU sunt adevărate în cazul algoritmului de căutare binară:
+(a) Trebuie folosit un tablou sortat
+(b) Trebuie să avem acces direct la elementul din mijloc
+(c) Algoritmul nu este eficient atunci când avem mai mult de 1000 de elemente
+(d) Algoritmul realizează sortarea elementelor unui tablou
+9. Se consideră următorul algoritm aplicat unui număr n de forma n = ck ck−1 . . . c1 c0 :
+s = 0
+while n!=0:
+d = n % 10
+s = s+d
+n = n//10
+Dacă p este o variabilă (implicită) care contorizează numărul de execut, ii ale ciclului (contorul
+ciclului), care este proprietatea invariantă?
+(a) s = c0 + c1 + . . . + cp , n = ck ck−1 . . . cp
+(b) s = c0 + c1 + . . . + cp−1 , n = ck ck−1 . . . cp
+(c) s = c0 + c1 + . . . + cp−1 , n = ck ck−1 . . . c1 c0
+7
+
+STRUCTURI DISCRETE S, I ALGORITMI
+(d) n = ck ck−1 . . . cp
+10. Fie A = (a1 , ..., an ) un multiset. Pentru a găsi S = (s1 , ..., sk ), un subset al lui A folosind tehnica
+căutarii local optimale (căutare lacomă – greedy):
+(a) La fiecare pas elementul care pare a fi cel mai promit, ător la pasul respectiv este selectat din
+A s, i adăugat la S.
+(b) La fiecare pas elementul care pare a fi cel mai promit, ător la pasul respectiv este selectat din
+A s, i adăugat la S. Dacă ulterior nu este bun îl putem înlocui cu o altă componentă.
+(c) La fiecare pas elementul care pare a fi cel mai promit, ător pe ansamblul problemei este selectat
+din A s, i adăugat la S.
+(d) La fiecare pas un element oarecare este selectat din A s, i adăugat la S.
+11. O listă liniară simplu înlănţuită este:
+(a) lista liniară, în care relaţia de ordonare este materializată pe suport printr-un pointer către
+elementul următor;
+(b) o structură de date implementată prin tipul tablou;
+(c) o structură de date circulară;
+12. Care din următoarele afirmaţii sunt corecte?
+(a) Complexitatea (cea mai defavorabilă) pentru operaţiile de inserare, ştergere sau căutare întrun arbore binar de căutare este O(log n).
+(b) Complexitatea (cea mai defavorabilă) pentru operaţiile de inserare, ştergere sau căutare întrun arbore AVL este O(log n).
+(c) Complexitatea (cea mai defavorabilă) pentru operaţiile de inserare, ştergere sau căutare întrun arbore splay tree este O(log n).
+13. Care este complexitatea de inserare a unui element într-o listă înlănţuită sortată?
+(a) O(1).
+
+(b) Θ(1).
+
+(c) O(n).
+
+(d) Θ(log n).
+
+14. O stivă este:
+(a) listă liniară în care inserările se fac la un capăt al listei şi suprimările la celalalt capăt al
+listei;
+(b) o listă liniară de tipul LIFO (Last In First Out);
+(c) o listă liniară cu restricţie la intrare;
+(d) o listă liniară în care se manipulează mereu elementul cel mai recent introdus.
+15. O structură de date de tip coadă este:
+8
+
+STRUCTURI DISCRETE S, I ALGORITMI
+(a) structură de tip listă cu restricţie la intrare;
+(b) o listă liniară de tipul FIFO (First In First Out);
+(c) o lista liniară în care toate operaţiile se efectuează doar la unul din capetele listei;
+(d) o listă liniară în care inserările se efectuează la un capăt al listei, iar suprimările şi ori ce alt
+acces se efectuează la celălalt capăt al listei.
+16. În care din următoarele structuri de date, căutarea are complexitate (worst-case) O(log n) ?
+(a) liste înlănţuite;
+
+(b) heap;
+
+(c) liste skip;
+
+(d) arbori splay.
+
+17. Care din variantele de parcurgere a unui arbore binar de căutare poate fi folosită pentru afişarea
+tuturor nodurilor ordonate după cheia nodului.
+(a) parcurgere
+breadth-first;
+
+(b) preordine;
+
+(c) inordine;
+
+(d) postordine.
+
+18. Care este înălţimea minimă a unui arbore binar de căutare cu N noduri?
+(a) O(1);
+
+(b) O(N );
+
+(c) O(N · log2 (N ));
+
+(d) O(log2 (N )).
+
+19. Care din afirmaţiile următoare sunt adevărate referitoare la operaţia de căutare într-un arbore
+binar de căutare cu N noduri:
+(a) căutarea unui nod se face în O(log2 (N )) dacă arborele este echilibrat .
+(b) căutarea unui nod se face întotdeauna în O(1) dacă nodul căutat nu există.
+(c) căutarea unui nod se face în (worst-case) O(N ) dacă arborele nu este echilibrat.
+(d) căutarea unui nod se face în O(N · log2 (N )).
+20. Fie următorul arbore binar de căutare, din care s, tergem (prin copiere) nodul 40. Care dintre
+următoarele afirmat, ii NU sunt adevărate:
+
+9
+
+STRUCTURI DISCRETE S, I ALGORITMI
+
+(a) La s, tergerea nodului 40, acesta va putea fi înlocuit de nodul 35
+(b) La s, tergerea nodului 40, acesta va putea fi înlocuit de nodul 37
+(c) La s, tergerea nodului 40, acesta va putea fi înlocuit de nodul 38
+(d) La s, tergerea nodului 40, acesta va putea fi înlocuit de nodul 44
+21. Fie următorul arbore binar de cautare, din care stergem (prin copiere) nodul 20. Care dintre
+următoarele afirmat, ii sunt adevărate:
+
+(a) La stergerea nodului 20, acesta va putea fi inlocuit cu nodul 12
+(b) La stergerea nodului 20, acesta va putea fi inlocuit cu nodul 11
+(c) La stergerea nodului 20, acesta va putea fi inlocuit cu nodul 23
+10
+
+STRUCTURI DISCRETE S, I ALGORITMI
+(d) La stergerea nodului 20, acesta va putea fi inlocuit cu nodul 22
+22. Fie urmatorul arbore binar. Parcurgerea in postordine corecta a acestui arbore este:
+
+(a) 5,2,1,9,6,8,4,3
+(b) 1,9,2,4,3,8,6,5
+(c) 5,2,1,9,4,6,8,3
+(d) 1,9,2,5,3,8,6,4
+23. Fie urmatorul arbore binar. Parcurgerea in inordine a acestui arbore este:
+
+(a) 1,9,2,4,3,18,16,10
+(b) 10,2,1,9,16,18,4,3
+(c) 1,2,9,10,16,4,18,3
+(d) 1,2,3,4,9,10,16,18
+24. Un min-heap binar este o structură de date care modelează un arbore binar aproape complet care
+are proprietatea de heap: Pentru orice nod N , dacă P este părintele lui N atunci cheia lui P este
+mai mică decât cheia lui N .
+Implementarea cu tablou a unui min-heap binar cu n noduri este un tablou A[0..2m − 1] cu
+două atribute suplimentare: capacitatea A.length = 2m − 1 şi mărimea A.size = n, astfel încât
+A.size ≤ A.length. Elementele din nodurile min-heap-ului binar sunt reţinute în primele n
+elemente ale lui A: rădăcina este reţinută în A[0], iar dacă N este fiul stâng (resp. drept) al unui
+nod P reţinut în A[i] atunci N este reţinut în A[2 · i + 1] (resp. A[2 · i + 2]).
+Pentru 0 ≤ i, j < n definim relaţia bunic(i, j) dacă A[j] reţine părintele părintelui nodului din
+A[i].
+11
+
+STRUCTURI DISCRETE S, I ALGORITMI
+Formula ce defineşte relaţia bunic(i, j) în un min-heap binar este:
+(a) (4 · j + 3 ≤ i) ∧ (i ≤ 4 · j + 6).
+(b) (4 · i + 3 ≤ j) ∧ (j ≤ 4 · i + 6).
+(c) j = ⌊i/4⌋.
+(d) (4 · j + 1 ≤ i) ∧ (i ≤ 4 · j + 2).
+(e) (4 · i + 1 ≤ j) ∧ (j ≤ 4 · i + 2).
+25. Un min-heap binar este o structură de date care modelează un arbore binar aproape complet care
+are proprietatea de heap: Pentru orice nod N , dacă P este părintele lui N atunci cheia lui P este
+mai mică decât cheia lui N .
+Implementarea cu tablou a unui min-heap binar cu n noduri este un tablou A[0..2m − 1] cu
+două atribute suplimentare: capacitatea A.length = 2m − 1 şi mărimea A.size = n, astfel încât
+A.size ≤ A.length. Elementele din nodurile min-heap-ului binar sunt reţinute în primele n
+elemente ale lui A: rădăcina este reţinută în A[0], iar dacă N este fiul stâng (resp. drept) al unui
+nod P reţinut în A[i] atunci N este reţinut în A[2 · i + 1] (resp. A[2 · i + 2]).
+Pentru 0 ≤ i, j < n definim relaţia bunic(i, j) dacă A[j] reţine părintele părintelui nodului din
+A[i].
+Numărul maxim de noduri în un min-heap binar cu adâncimea h este:
+(a) 2h+1 − 1.
+(b) 2h .
+(c) h2 − 1.
+(d) 2h−1 + 1.
+26. Un min-heap binar este o structură de date care modelează un arbore binar aproape complet care
+are proprietatea de heap: Pentru orice nod N , dacă P este părintele lui N atunci cheia lui P este
+mai mică decât cheia lui N .
+Implementarea cu tablou a unui min-heap binar cu n noduri este un tablou A[0..2m − 1] cu
+două atribute suplimentare: capacitatea A.length = 2m − 1 şi mărimea A.size = n, astfel încât
+A.size ≤ A.length. Elementele din nodurile min-heap-ului binar sunt reţinute în primele n
+elemente ale lui A: rădăcina este reţinută în A[0], iar dacă N este fiul stâng (resp. drept) al unui
+nod P reţinut în A[i] atunci N este reţinut în A[2 · i + 1] (resp. A[2 · i + 2]).
+Pentru 0 ≤ i, j < n definim relaţia bunic(i, j) dacă A[j] reţine părintele părintelui nodului din
+A[i].
+(1) Dacă A este un min-heap binar atunci A este sortat în ordinea crescătoare a cheilor din
+noduri?
+(2) Dacă A este sortat în ordinea crescătoare a cheilor din noduri atunci A este un min-heap
+binar?
+12
+
+STRUCTURI DISCRETE S, I ALGORITMI
+(a) (1) fals (2) adevărat
+(b) (1) fals (2) fals
+(c) (1) adevărat (2) adevărat
+(d) (1) adevărat (2) fals
+27. Un min-heap binar este o structură de date care modelează un arbore binar aproape complet care
+are proprietatea de heap: Pentru orice nod N , dacă P este părintele lui N atunci cheia lui P este
+mai mică decât cheia lui N .
+Implementarea cu tablou a unui min-heap binar cu n noduri este un tablou A[0..2m − 1] cu
+două atribute suplimentare: capacitatea A.length = 2m − 1 şi mărimea A.size = n, astfel încât
+A.size ≤ A.length. Elementele din nodurile min-heap-ului binar sunt reţinute în primele n
+elemente ale lui A: rădăcina este reţinută în A[0], iar dacă N este fiul stâng (resp. drept) al unui
+nod P reţinut în A[i] atunci N este reţinut în A[2 · i + 1] (resp. A[2 · i + 2]).
+Pentru 0 ≤ i, j < n definim relaţia bunic(i, j) dacă A[j] reţine părintele părintelui nodului din
+A[i].
+Timpul de execuţie a operaţiei de ştergere a nodului cu cheie minimă din un min-heap binar cu
+n noduri este:
+(a) O(1)
+
+(b) O(log n)
+
+(c) Θ(n log n)
+
+(d) Θ(n)
+
+Teoria grafurilor s, i combinatorică
+1. Se dau mulţimile A = {a, b, c}, B = {A, B, C, D} şi C = {1, 2, 3, 4, 5}. Câte submulţimi ale mulţimii
+A ∪ B ∪ C conţin un element din A, două din B şi cel puţin 4 elemente din C?
+(a) 15
+
+(b) 14
+
+(c) 100
+
+(d) 108
+
+2. Câte numere întregi cuprinse între 1 şi 1000 se divid cu 7, dar nu se divid cu 3?
+(a) 93
+
+(b) 95
+
+(c) 92
+
+(d) 136
+
+3. În câte feluri putem forma un buchet cu cinci trandafiri dacă putem folosi trandafiri roşii, galbeni
+şi albi? Ordinea punerii trandafirilor în buchet nu este relevantă.
+(a) 21
+
+(b) 120
+
+(c) 125
+
+(d) 243
+
+(e) 15
+
+4. Un mesaj transmis pe un canal de comunicare este o secvenţă de 2 tipuri de semnale: semnale de
+tip A care durează 1 microsecundă, şi semnale de tip B care durează 2 microsecunde. De exemplu,
+mesajul ABAAB durează 3 × 1 + 2 × 2 = 7 microsecunde.
+Fie an numărul de mesaje diferite care durează n microsecunde. Care este valoarea lui a10 ?
+13
+
+STRUCTURI DISCRETE S, I ALGORITMI
+(a) 89
+
+(b) 55
+
+(c) 2917
+
+(d) 144
+
+5. In internet, format din reţele interconectate de calculatoare, fiecărei conexiuni de reţea dintr-un
+calculator i se atribuie o adresă internet. Protocolul IPv4 prevede că o adresă internet este un şir
+de 32 biţi, format din un număr de reţea (netid) urmat de un număr de gazdă (hostid). Sunt 3
+tipuri de adrese internet:
+(a) Clasa A: acestea sunt de forma 0 b1 b2 b3 b4 . . . b7 b8 b9 . . . b30 b31
+|
+{z
+}|
+{z
+}
+netid
+
+hostid
+
+(b) Clasa B: acestea sunt de forma 10 b2 b3 b4 . . . b15 b16 b17 . . . b30 b31
+|
+{z
+}|
+{z
+}
+netid
+
+hostid
+
+(c) Clasa C: acestea sunt de forma 110 b3 b4 b5 . . . b23 b24 b25 . . . b30 b31
+|
+{z
+}|
+{z
+}
+netid
+
+hostid
+
+Câte adrese IPv4 diferite sunt disponibile pentru conexiunile de reţea din internet?
+(a) 229 · 230 · 231
+
+(b) 231
+
+(c) 7 · 229
+
+(d) 232
+
+6. Fie reţeaua de transport G cu sursa s şi destinaţia t:
+v1
+3
+
+s
+
+2
+3
+
+1
+x1
+2
+w1
+
+5
+
+v2
+4
+
+2
+
+1
+
+x2
+
+2 w
+2
+
+2
+
+3
+
+1
+
+t
+
+5
+
+Care este valoarea fluxului maxim în G?
+(a) 8
+
+(b) 5
+
+(c) 6
+
+7. Fie graful ponderat
+
+14
+
+(d) 7
+
+STRUCTURI DISCRETE S, I ALGORITMI
+m
+60
+
+24
+80
+
+g
+
+20
+
+21
+
+70
+
+o 25 l
+10
+
+d
+
+b
+
+20
+
+22
+
+a 23 s
+
+22
+
+20
+
+45
+
+12
+30
+
+w
+
+35
+
+t
+
+9
+
+Ce greutate totală are arborele minim de acoperire al acestui graf?
+(a) 229
+
+(b) 216
+
+(c) 230
+
+(d) 234
+
+8. Care din grafurile următoare este eulerian?
+e
+
+e
+c
+
+d
+
+G1 :
+
+d
+
+b
+
+a
+
+b
+
+e
+c
+
+d
+
+G2 :
+a
+
+(a) G1 , G4
+
+e
+c
+
+G3 :
+
+(b) G2 , G3
+
+d
+
+c
+
+a
+
+b
+
+G4 :
+a
+
+b
+
+(c) nici unul
+
+(d) G4
+
+(e) G1 , G3
+
+9. Care din grafurile următoare are un cuplaj perfect?
+G1 : a
+
+c
+
+d
+
+b
+g
+
+(a) G1
+
+G2 :
+
+h
+
+f
+
+a
+
+c
+
+h
+d
+
+b
+e
+
+(b) G2
+
+g
+
+G3 :
+
+f
+
+(c) G3
+
+a
+
+c
+e
+
+G4 :
+
+g
+
+b
+
+f
+d
+
+e
+
+a
+
+g
+
+b
+o
+
+c
+d
+
+f
+e
+
+(d) G4
+
+10. Câţi arbori diferiţi cu 5 noduri, numerotate de la 1 la 5, există?
+(a) 10
+
+(b) 273
+
+(c) 32
+
+(d) 120
+
+(e) 125
+
+11. Câte cuplaje maxime are graful bipartit complet Km,n dacă 1 ≤ m ≤ n? Observaţi că un astfel
+de cuplaj trebuie să aibă m muchii.
+15
+
+STRUCTURI DISCRETE S, I ALGORITMI
+(a) m
+
+(b) m + n
+
+(c) P (n, m)
+
+(d) C(n, m)
+
+(e) mn
+
+(f) nm
+
+12. Câte muchii are graful complet Kn ?
+(a) C(n, 2)
+
+(b) n2
+
+(c) 2n
+
+(d) n · (n − 1)
+
+(e) n
+
+13. Se presupune că n ≥ 3. Câte regiuni are o reprezentare planară a grafului bipartit complet Kn,2 ?
+(a) n + 1
+
+(b) n
+
+(c) 2 · n
+
+(d) C(n, 2)
+
+(e) P (n, 2)
+
+14. Un şir ternar este un şir care conţine doar cifrele 0,1 şi 2. Fie an numărul şirurilor ternare de
+lungime n care nu conţin apariţii consecutive ale cifrei 0. De exemplu, a1 = 3 şi a2 = 8. Care din
+formulele următoare are loc pentru orice n ≥ 3:
+(a) an = 2 an−1 + 2 an−2
+(b) an = 2 an−1 + 2 an−2
+
+(c) an = 2 an−1 + 3 an−2
+(d) an = 2 an−1 + 3n−1
+
++ 3n−1
+
+15. Care dintre grafurile următoare au numărul cromatic 2:
+(a) Orice arbore cu n ≥ 2 noduri.
+(b) Orice graf complet Kn cu număr par de noduri.
+(c) Orice graf complet Kn cu număr impar de noduri mai mare sau egal cu 3.
+(d) Orice graf ciclic Cn cu n ≥ 2 număr par.
+(e) Orice graf ciclic Cn cu n ≥ 2 număr impar.
+(f) Orice graf bipartit Km,n .
+16. Fie G un graf simplu neorientat cu n noduri numerotate de la 1 la n, şi AG ∈ Mn matricea lui de
+adiacenţă.
+A ⊕ B = C ∈ Mn dacă C[i][j] = max(A[i][j], B[i][j]) şi A ⊙k B = D ∈ Mn dacă D[i][j] =
+A[i][k] · B[k][j]
+Numărul de grafuri neorientate simple cu n noduri numerotate de la 1 la n este:
+(a) 2n(n−1)/2
+(b) 2n
+(c) n(n − 1)/2
+(d) n − 1
+(e) n · (n − 1)
+
+16
+
+STRUCTURI DISCRETE S, I ALGORITMI
+17. Fie Mn mulţimea matricilor de dimensiune n × n cu elemente 0 sau 1. Pentru orice două matrici
+A, B ∈ Mn şi 1 ≤ k ≤ n definim operaţiile A ⊕ B şi A ⊙k B în felul următor: A ⊕ B = C ∈ Mn
+dacă C[i][j] = max(A[i][j], B[i][j]) şi A ⊙k B = D ∈ Mn dacă D[i][j] = A[i][k] · B[k][j] pentru toţi
+1 ≤ i, j ≤ n.
+Fie G un graf simplu neorientat cu n noduri numerotate de la 1 la n, şi AG ∈ Mn matricea lui de
+adiacenţă.
+Fie In matricea identitate de dimensiune n × n, şi 1 ≤ p ≤ n. Se consideră algoritmul următor de
+calcul al matricii B ∈ Mn
+B = AG ⊕ In ;
+for k := 1 to p do
+C = B ⊕ (B ⊙k B);
+B = C;
+Complexitatea temporală a calculului matricii B este:
+(a) Θ(p · n2 )
+(b) Θ(p · n)
+(c) Θ(p · n3 )
+(d) Θ(n), Θ(p · 2n )
+18. Fie Mn mulţimea matricilor de dimensiune n × n cu elemente 0 sau 1. Pentru orice două matrici
+A, B ∈ Mn şi 1 ≤ k ≤ n definim operaţiile A ⊕ B şi A ⊙k B în felul următor: A ⊕ B = C ∈ Mn
+dacă C[i][j] = max(A[i][j], B[i][j]) şi A ⊙k B = D ∈ Mn dacă D[i][j] = A[i][k] · B[k][j] pentru toţi
+1 ≤ i, j ≤ n.
+Fie G un graf simplu neorientat cu n noduri numerotate de la 1 la n, şi AG ∈ Mn matricea lui de
+adiacenţă.
+Fie In matricea identitate de dimensiune n × n, şi 1 ≤ p ≤ n. Se consideră algoritmul următor de
+calcul al matricii B ∈ Mn
+B = AG ⊕ In ;
+for k := 1 to p do
+C = B ⊕ (B ⊙k B);
+B = C;
+Care din afirmaţiile următoare este adevărată când B[i][j] = 1?
+(a) Există o cale de lungime cel mult p + 1 de la nodul i la nodul j.
+(b) Există o cale de lungime p de la nodul i la nodul j
+(c) Există o cale de la nodul i la nodul j care trece prin nodul p.
+(d) Există o cale de la nodul i la nodul j care trece prin toate nodurile din mulţimea {1, 2, . . . , p}.
+17
+
+STRUCTURI DISCRETE S, I ALGORITMI
+
+Logică computat, ională
+1. Consideraţi, în logica predicatelor, limbajul care conţine următoarele simboluri:
+• variabile, pentru care se folosesc litere mici,
+• simboluri funcţionale F: + binar, infix, − unar, prefix, ∗ binar, infix.
+• simboluri predicative P: =,<, ≤ toate binare, infix.
+• simboluri pentru constante C: 0, 1.
+Care din următoarele sunt termeni peste acest limbaj?
+(a) (0 ∗ x) − 1,
+(b) 1 + (z ∗ x) < 0,
+(c) x + ((−1) ∗ 0),
+(d) 0 ∗ (y + 1).
+2. Pentru următoarele formule propoziţionale, şi pentru interpretarea {P, ¬Q}:
+(a) ((P ⇒ Q) ∧ ((¬Q) ∧ P )) are valoarea sub interpretare A,
+(b) ((P ⇒ Q) ⇒ (Q ⇒ P )) are valoarea sub interpretare A,
+(c) ((¬(P ∨ Q)) ∧ (¬Q)) are valoarea sub interpretare F .
+3. Care din următoarele afirmaţii este adevărată:
+(a) dacă o formulă propoziţională este validă, atunci este satisfiabilă,
+(b) dacă o formulă propoziţională nu este validă, atunci este nesatisfiabilă,
+(c) dacă o formulă propoziţională nu este validă, atunci negaţia sa este satisfiabilă,
+(d) dacă o formulă propoziţională nu este validă, atunci negaţia sa este validă.
+4. Care este relaţia dintre propoziţiile
+(F ∧ G) ⇒ H
+şi
+F ⇒ (G ⇒ H)?
+(a) sunt logic echivalente
+(b) prima este o consecinţă logică a celei de-a doua,
+(c) a doua este o consecinţă logică a primeia,
+(d) nu se relat, ionează în niciunul din modurile descrise.
+5. Formula
+P ⇔Q
+este
+18
+
+STRUCTURI DISCRETE S, I ALGORITMI
+(a) logic echivalentă cu conjuncţia formulelor de mai jos,
+(b) o consecinţă logică a formulelor de mai jos,
+(c) logic echivalentă cu disjuncţia formulelor de mai jos,
+aceste formule fiind:
+
+Q ⇒ R,
+R ⇒ (P ∧ Q),
+P ⇒ (Q ∨ R).
+
+6. Care din formulele de mai jos sunt în formă normală disjunctivă?
+(a) P ,
+(b) ¬P ∨ Q,
+(c) P ∧ ¬Q ∧ S,
+(d) (P ∧ ¬Q ∧ S) ∨ ¬S.
+7. Care din următoarele este un rezolvent al clauzelor {P, ¬Q, R} şi {¬P, Q, S}?
+(a) ∅,
+
+(b) {P, ¬P, R, S},
+
+(c) {R, S}.
+
+8. Pentru a verifica faptul că o formulă G este o consecinţă logică a formulelor F1 , . . . , Fn , se poate:
+(a) verifica dacă (F1 ∧ . . . ∧ Fn ) ⇒ G este nesatisfiabilă,
+(b) verifica dacă ¬F1 ∨ . . . ∨ ¬Fn ∨ G este nesatisfiabilă,
+(c) verifica dacă ¬F1 ∨ . . . ∨ ¬Fn ∨ G este validă,
+(d) verifica dacă F1 ∧ . . . ∧ Fn ∧ ¬G este nesatisfiabilă.
+9. Există o formulă logic echivalenta cu
+
+
+((P1 ⇒ (P2 ∨ P3 ) ∧ (¬P1 ⇒ (P3 ∨ P4 ))))
+
+
+∧
+
+
+ ((P3 ⇒ (¬P6 )) ∧ (¬P3 ⇒ (P4 ⇒ P1 )))  ⇒ ¬(P3 ⇒ P6 ),
+
+
+
+
+∧
+(¬(P2 ∧ P5 )) ∧ (P2 ⇒ P5 )
+care conţine doar conectori propoziţionali din mulţimea:
+(a) {¬, ∨},
+
+(b) {∨, ∧},
+
+(c) {|},
+
+unde | este conectorul NŞI (i.e. P |Q = ¬(P ∧ Q)).
+10. Mulţimea de clauze ce corespunde formulei
+(¬P ⇒ (Q ∧ R)) ⇒ (P ⇒ ¬Q)
+este:
+19
+
+(d) {⊥, →}.
+
+STRUCTURI DISCRETE S, I ALGORITMI
+(a) {{¬P, ¬Q}},
+(b) {{P, ¬Q}, {P, R}, {¬Q, R}},
+(c) {{P, ¬Q, ¬R}, {P, Q, R}, {¬P, ¬Q, R}}.
+11. Consideraţi mulţimea de clauze:
+
+(1)
+(2)
+(3)
+(4)
+(5)
+
+{P, Q, ¬R},
+{¬P, R},
+{P, ¬Q, S},
+{¬P, ¬Q, ¬R},
+{P, ¬S}.
+
+Formula corespunzătoare acestei mulţimi este:
+(a) validă,
+
+(b) satisfiabilă,
+
+(c) nesatisfiabilă.
+
+12. Metoda Davis-Putnam returnează răspunsul satisfiabil:
+(a) când se generează clauza vidă,
+(b) când se generează mulţimea vidă de clauze,
+(c) când nu se pot genera clauze noi, şi clauza vidă nu este în mulţimea de clauze.
+13. Pentru a demonstra o formulă G când se cunoaşte o disjuncţie A ∨ B:
+(a) se presupune A şi se demonstrează G, apoi se presupune B şi se demonstrază G,
+(b) se presupune A şi se demonstrează G,
+(c) se presupune ¬A şi se demonstrează B şi G.
+14. Fie P, Q, R variabile propoziţionale. Care din formulele propoziţionale de mai jos corespund
+funcţiei booleene cu trei argumente care returnează A dacă argumentele sale reprezintă codificarea
+binară a unui număr prim este:
+(a) P ∧ Q ∧ ¬R;
+(b) (¬P ∧ Q) ∨ (P ∧ R);
+(c) (¬P ∧ Q ∧ ¬R) ∨ (((¬P ∧ Q) ∨ P ) ∧ R);
+(d) ((¬P ∧ Q) ∨ (P ∧ ¬Q) ∨ (P ∧ Q)).
+15. Fie mulţimea de clauze:
+{{¬P, ¬Q, R}, {P, ¬Q, ¬R}, {¬P, R}, {P, ¬Q, R}, {¬Q, ¬R}} .
+Primul pas în aplicarea metodei Davis Putnam asupra mulţimii de clauze consistă în:
+(a) aplicarea regulii de împărţire (folosind literalul ¬P );
+(b) aplicarea regulii literalului pur (unde literalul pur este ¬Q);
+(c) aplicarea unui pas de rezoluţie;
+(d) aplicarea regulii clauzei cu un singur literal (folosind ultima clauză).
+20
+
+STRUCTURI DISCRETE S, I ALGORITMI
+
+Limbaje formale şi teoria automatelor
+1. Limbajul generat de gramatica G = (VN , VT , S, P ), unde VN = {S}; VT = {a, b}; P = {S →
+aSb|aAb, A → aA|λ}, este:
+(a) L = {am bn |m ≥ n ≥ 1, };
+(b) L = {an am bn |n ≥ 0, m ≥ 0};
+(c) L = {ai+1 bi |i ≥ 1};
+(d) L = {an+i bn |n ≥ 1, i ≥ 0};
+2. Regulile gramaticii G = (VN , VT , S, P ), unde VN = {S}, VT = {P CR, P DAR, U DM R}, P =
+{S → P CR|P DAR|U DM R}, respectă restricţiile impuse gramaticilor:
+(a) regulate (tip 3);
+(b) independente de context (tip 2);
+(c) dependente de context (tip 1);
+(d) de tipul 0, 1, 2, 3;
+3. Regulile gramaticii G = (VN , VT , S, P ), unde P = {S → abc|aAbc, Ab → bA, Ac → Bbcc, bB →
+Bb, aB → aaA|aa}, respectă restricţiile impuse gramaticilor:
+(a) regulate (tip 3);
+(b) independente de context (tip 2);
+(c) dependente de context (tip 1);
+(d) de tipul 0;
+4. Expresia regulată ce notează limbajul L = {w| şiruri de 0 şi 1 ce conţin cel putin un simbol 1 },
+este:
+(a) (0|1)∗ 1;
+(b) 1|(0|1)∗ 1(1|0)∗ ;
+(c) 0∗ 11∗ ;
+(d) (0|1)∗ 1(0|1)∗ ;
+5. Limbajul L notat de expresia regulata 01∗ |1; este:
+(a) L = {0, 1, 00, 01, 10, 11, 000, . . .};
+(b) L = {w ∈ {0, 1}∗ |w începe cu 1 };
+(c) L = {w ∈ {0, 1}∗ |w începe cu 0 };
+S
+(d) L = {01n |n ≥ 0} {1};
+6. Limbajul L notat de expresia regulata (1|0)∗ 0(0|1) este:
+21
+
+STRUCTURI DISCRETE S, I ALGORITMI
+(a) L = {0, 1, 00, 01, 10, 11, . . .};
+(b) L = {w ∈ {0, 1}∗ |w se termină cu 00 sau 01};
+(c) L = {w ∈ {0, 1}∗ |w are cel putin un simbol 0 };
+(d) L = {w ∈ {0, 1}∗ |w are 0 în penultima poziţie };
+7. Dacă L1 este un limbaj regulat iar despre L2 nu se cunoaşte tipul darL1 \ L2 este regulat, atunci
+L2 poate să fie
+(a) mulţimea vidă
+(b) independent de context
+(c) decidabil
+(d) regulat
+8. Aplicând Lema de pompare pentru un limbaj regulat, considerăm un cuvânt w suficient de lung
+care aparţine limbajului L şi îl descompunem în . . . . . . părţi.
+(a) 2
+(b) 5
+(c) 3
+(d) 6
+9. O producţie de forma A → B, unde A şi B nu sunt terminale, se numeşte
+(a) Regulă de ştergere
+(b) Redenumire
+(c) Formă normală Greibach
+(d) Formă normală Chomsky
+10. Care dintre producţiile de mai jos poate fi acceptată de gramatica în formă normală Chomsky,
+unde A, B, C şi S sunt neterminale iar a este terminal?
+(a) A → BC
+(b) A → a
+(c) S → λ
+(d) nici una din cele menţionate anterior
+11. Care dintre următoarele seturi de reguli corespund unei gramatici în formă normală Chomsky?
+(a) A → AB|BC|CD, A → 0, B → 1, C → 2, D → 3
+(b) A → AB, S → BCA|0|1|2|3
+(c) S → ABa, A → aab, B → Ac
+22
+
+STRUCTURI DISCRETE S, I ALGORITMI
+(d) toate cele menţionate anterior
+12. Fie L limbajul generat de gramatica G = (VN , VT , S, P ) unde VN = {S, A, B, C, X, Y, Z}, VT =
+{a, b, c}, şi
+P = { S → λ | AX | BY | CZ,
+X → λ | BY | CZ,
+Y → λ | AX | CZ,
+Z → λ | AX | BY,
+A → a, B → b, C → c}.
+Alegeţi răspunsurile corecte.
+(a) L este limbaj regulat
+(b) L nu este limbaj regulat
+(c) L este limbaj de programare
+13. Fie L limbajul generat de gramatica G = (VN , VT , S, P ) unde VN = {S, A, B, C, X, Y, Z}, VT =
+{a, b, c}, şi
+P = { S → λ | AX | BY | CZ,
+X → λ | BY | CZ,
+Y → λ | AX | CZ,
+Z → λ | AX | BY,
+A → a, B → b, C → c}.
+Care din afirmaţiile următoare este adevărată?
+(a) L = {w ∈ VT∗ | w nu conţine litere consecutive identice}
+(b) L = {w ∈ VT∗ | w conţine litere consecutive identice}
+(c) L = {w ∈ VT∗ | w conţine subşirul abc}
+(d) L = {λ}.
+14. Fie L limbajul generat de gramatica G = (VN , VT , S, P ) unde VN = {S, A, B, C, X, Y, Z}, VT =
+{a, b, c}, şi
+P = { S → λ | AX | BY | CZ,
+X → λ | BY | CZ,
+Y → λ | AX | CZ,
+Z → λ | AX | BY,
+A → a, B → b, C → c}.
+Fie sn numărul şirurilor din L cu lungimea n. Pentru orice n > 1 are loc relaţia de recurenţă:
+(a) sn = 2 · sn−1
+(b) sn = 3 · sn−1
+(c) sn = sn−1 + 2 · sn−2
+23
+
+STRUCTURI DISCRETE S, I ALGORITMI
+(d) sn = 3 sn−1 + sn−2
+15. Fie L limbajul generat de gramatica G = (VN , VT , S, P ) unde VN = {S, A, B, C, X, Y, Z}, VT =
+{a, b, c}, şi
+P = { S → λ | AX | BY | CZ,
+X → λ | BY | CZ,
+Y → λ | AX | CZ,
+Z → λ | AX | BY,
+A → a, B → b, C → c}.
+Câte şiruri cu lungimea 4 conţine L?
+(a) 16
+(b) 24
+(c) 32
+(d) 81
+(e) 243
+
+24
+
+STRUCTURI DISCRETE S, I ALGORITMI
+
+Răspunsuri
+Algoritmi şi structuri de date
+
+Algoritmi şi structuri de date
+
+1. (b), (d)
+
+25. (a)
+
+2. (b)
+
+26. (a)
+
+3. (d), (e)
+
+27. (a)
+
+4. (c)
+
+28. (b)
+
+5. (b), (d), (f)
+
+Teoria grafurilor s, i combinatorică
+
+6. (a)
+
+1. (d)
+
+7. (a)
+
+2. (b)
+
+8. (c),(d)
+
+3. (a)
+
+9. (b)
+
+4. (a)
+
+10. (a)
+
+5. (c)
+
+11. (a)
+
+6. (d)
+
+12. (b)
+
+7. (a)
+
+13. (c)
+
+8. (b)
+
+14. (b),(d)
+
+9. (a)
+
+15. (b),(d)
+
+10. (e)
+
+16. (c)
+
+11. (c)
+
+17. (c)
+
+12. (a)
+
+18. (d)
+
+13. (b)
+
+19. (a),(c)
+
+14. (a)
+
+20. (a), (b)
+
+15. (a), (d), (f)
+
+21. (a), (d)
+
+16. (a)
+
+22. (b)
+
+17. (a)
+
+23. (c)
+
+18. (a)
+
+25
+
+STRUCTURI DISCRETE S, I ALGORITMI
+
+Logică Computat, ională
+
+Limbaje formale şi teoria automatelor
+
+1. (c),(d)
+
+1. (a),(d)
+
+2. (b),(c)
+
+2. (a),(b),(c),(d)
+
+3. (a),(c)
+
+3. (d)
+
+4. (a),(b),(c)
+
+4. (b),(d)
+
+5. (b)
+
+5. (d)
+
+6. (a),(b),(c),(d)
+
+6. (b),(d)
+
+7. (b)
+
+7. (a), (b), (d)
+
+8. (c),(d)
+
+8. (c)
+
+9. (a),(c),(d)
+
+9. (b)
+
+10. (a)
+
+10. (a), (b), (c)
+
+11. (b)
+
+11. (a)
+
+12. (b),(c)
+
+12. (a)
+
+13. (a)
+
+13. (a)
+
+14. (b), (c)
+
+14. (a)
+
+15. (b)
+
+15. (b)
+
+26
+
+LIMBAJE DE PROGRAMARE S, I INGINERIE SOFTWARE
+
+Limbajul Python
+1. Ce afis, ează următoarea secvent, ă de cod:
+y = 9
+def test(x = 42, y = 3):
+x = x + y
+y += 1
+print(x, y)
+test()
+(a) 45 4
+(b) 51 10
+(c) Eroare la execut, ie deoarece variabila y nu este definită
+(d) Eroare la compilare deoarece funct, ia este apelată fară argumente
+(e) None
+2. Considerând secvent, a de cod:
+s = "Timisoara"
+Care dintre secvent, ele de cod de mai jos returnează s, irul de caractere ’aom’ :
+(a) s[::-3]
+(b) s[::2]
+(c) s[-1:3:1]
+(d) [i for i in s if i in ’aom’]
+(e) ”.join([i for i in s if i in ’aom’])
+3. Care este valoarea expresiei:
+1 + 2 ** 3 * 4
+(a) 33
+
+(b) 4097
+
+(c) 36
+
+(d) 108
+
+(e) 42
+
+4. Este sigur să folosim operatorul == pentru a verifica dacă două variabile de tip float sunt egale ?
+(a) Nu deoarece reprezentarea internă a valorilor de tip float nu este precisă
+(b) Da, bineînt, eles
+(c) Nu, operatorul pentru comparat, ie este !=
+(d) Da, deoarece reprezentarea în virgulă mobilă asigură precizia necesară
+27
+
+LIMBAJE DE PROGRAMARE S, I INGINERIE SOFTWARE
+(e) Da, Python asigură aproximările necesare comparării valorilor de tip float
+5. Care dintre opt, iunile de mai jos reprezintă o init, ializare corectă a unui dict, ionar:
+(a) d = (’nume’: ’valoare’)
+(b) d = ’nume’: ’valoare’
+(c) d = {’nume’:’valoare’}
+(d) d = [’nume’=’valoare’]
+6. Care este rezultatul execut, iei următoarei secvent, e de cod?
+nume1 = [’Maria’, ’Ioana’, ’Cristian’, ’Mirel’]
+nume2 = nume1
+nume3 = nume1[:]
+nume2[0] = ’Vasile’
+nume3[1] = ’Andrada’
+sum = 0
+for ls in (nume1, nume2, nume3):
+if ls[0] == ’Vasile’:
+sum += 1
+if ls[1] == ’Andrada’:
+sum += 10
+print(sum)
+(a) 11
+
+(b) 12
+
+(c) 21
+
+(d) 22
+
+7. Fie următoarea secvent, ă de cod:
+class Persoana(object):
+def __init__(self, nume):
+self.nume = nume
+def salut(self):
+print ("Salut")
+class Profesor(Persoana):
+def __init__(self, nume, titlu):
+Persoana.__init__(self, nume)
+self.titlu = titlu
+def salut(self):
+print ("Buna ziua")
+prof1 = Profesor("Decebal Popescu", "Asistent")
+Cum putem apela metoda salut() din clasa Persoana?
+28
+
+(e) 33
+
+(f) 0
+
+LIMBAJE DE PROGRAMARE S, I INGINERIE SOFTWARE
+(a) Persoana.salut(prof1)
+(b) prof1.salut()
+(c) super(prof1).salut()
+(d) Persoana(prof1).salut()
+(e) Nu putem apela metoda salut() din clasa Persoana deoarece este supraîncărcată în clasa
+Profesor
+8. Care este rezultatul execut, iei următoarei secvent, e de cod?
+class A:
+def __init__(self):
+self.calcI(30)
+def calcI(self, i):
+self.i = 2 * i;
+class B(A):
+def __init__(self):
+super().__init__()
+print("i from B is", self.i)
+def calcI(self, i):
+self.i = 3 * i;
+b = B()
+(a) Doar metoda __init__ din clasa B este invocată
+(b) Metoda __init__ din clasa A este invocată s, i se afis, ează “i from B is 0”.
+(c) Metoda __init__ din clasa A este invocată s, i se afis, ează “i from B is 60”.
+(d) Metoda __init__ din clasa A este invocată s, i se afis, ează “i from B is 90”.
+9. Când este execută clauza finally dintr-un bloc try:
+
+except:
+
+(a) doar când nu are loc nici o except, ie
+(b) doar când are loc o except, ie
+(c) tot timpul
+(d) doar dacă o anumită condit, ie specificată este îndeplinită
+(e) niciodată
+10. Care dintre variantele de mai jos deschide un fis, ier pentru scriere?
+(a) output_file = open("hello.txt", "r")
+(b) output_file = open("hello.txt", "w")
+29
+
+LIMBAJE DE PROGRAMARE S, I INGINERIE SOFTWARE
+(c) output_file = openFile("hello.txt", "w")
+(d) output_file = File("hello.txt", "w")
+(e) output_file = open("hello.txt", encoding="utf8")
+
+Limbajul C
+1. Fie următoarea secvent, ă de cod:
+#define swap(a,b) {int aux; aux=a; a=b; b=aux;}
+float x=10.5, y=3.75;
+în urma apelului swap(x, y); valorile variabilelor x, respectiv y vor fi:
+(a) x=3.75, y=10.5;
+
+(b) x=3.0, y=10.5;
+
+(c) x=3.75, y=10.0;
+
+(d) x=3.0, y=10.0;
+
+2. Ce reprezintă domeniul de vizibilitate a unei variabile?
+(a) plaja de valori pe care le poate lua;
+(b) locul unde se creează;
+(c) locul din textul sursă unde poate fi folosită;
+(d) dacă are semn sau nu;
+3. La execuţia programului următor se tastează 20. Ce se va afişa după execuţie?
+#include <stdio.h>
+void main() {
+char a;
+scanf("%c",&a);
+printf("%c",a); }
+(a) 20;
+
+(b) 2;
+
+(c) 0;
+
+4. Care este rezultatul numeric al evaluării expresiei:
+a<b<c
+dacă a=-2, b=-1 si c=0?
+(a) 1;
+
+(b) TRUE;
+
+(c) 0;
+
+5. Ce se va afişa în urma execuţiei secvenţei următoare:
+#include <stdio.h>
+void main() {
+30
+
+(d) FALSE;
+
+LIMBAJE DE PROGRAMARE S, I INGINERIE SOFTWARE
+unsigned char x=25;
+x=x<<2;
+printf("%d",(int)x); }
+(a) 27;
+
+(b) 100;
+
+(c) 23;
+
+6. Ce afişează programul?
+#include <stdio.h>
+void main() {
+int x,y,z;
+x=y=z=4;
+printf("%d",(x<<z)-(x|y)+(z&y));}
+(a) 64
+
+(b) 4
+
+(c) 0
+
+(d) 5
+
+(e) 33
+
+7. Care din următoarele variante reprezintă modalităţi de comunicare între funcţii?
+(a) apel;
+(b) prin variabile locale;
+(c) prin argumentele actuale;
+(d) prin valoarea returnată;
+(e) prin variabile globale
+(f) prin includere
+8. Ce este contextul de apel al unei funcţii?
+(a) lista argumentelor formale
+(b) o zona de memorie (de pe stivă)
+(c) locul din textul sursă în care se apelează
+(d) instrucţiunile (definiţia funcţiei)
+9. Care este valoarea variabilei n după execuţia secvenţei:
+char t[ ]="timisoara", *p,*q,n;
+p=q=t;
+while(*(q++));
+n=q-p;
+(a) n=0
+31
+
+(f) 32
+
+LIMBAJE DE PROGRAMARE S, I INGINERIE SOFTWARE
+(b) n=9
+(c) n=10
+(d) n=’\0’-’t’
+10. Ce reprezintă declaraţia: int *(*f)(int *) ?
+(i) funcţie ce primeşte argument pointer la întreg şi întoarce pointer la întreg
+(ii) o declaraţie greşită
+(iii) pointer către o funcţie care aşteaptă ca argument un pointer la int şi întoarce un pointer la
+int
+(iv) pointer către o funcţie care întoarce un int
+(a) i
+(b) ii
+
+(c) iii
+(d) iv
+
+(e) nici una
+(f) toate
+
+(g) i şi iv
+
+11. Ce se afişează în urma execut, iei următoarei secvent, e de cod?
+#include <stdio.h>
+void main() {
+char *u[2]={"abc","def"}, **v;
+v=&u[0];
+printf("%c",(*v)[1]);
+}
+(a) a
+(b) b
+
+(c) c
+(d) d
+
+(e) e
+(f) f
+
+(g) abc
+
+Limbajul C++
+1. Un constructor se caracterizează prin următoarele proprietăţi în limbajele C++/Java:
+(a) Este o funcţie membră care are acelaşi nume ca şi clasa în care este declarată
+(b) Este o funcţie membră care întoarce o valoare
+(c) Este o funcţie membră care nu are valoare de return
+(d) Este o funcţie membră utilizată pentru a iniţializa un obiect
+(e) Este o funcţie membră utilizată pentru a dealoca spaţiu de memorie
+(f) O clasă nu poate avea mai mult de un constructor
+2. Care dintre următoarele afirmaţii sunt adevărate despre template-uri(C++)/generice(Java)?
+32
+
+LIMBAJE DE PROGRAMARE S, I INGINERIE SOFTWARE
+(a) Template-urile / genericele sunt o facilitate a limbajului care permit folosirea aceluiaşi cod
+pentru diferite tipuri de date
+(b) Template-urile / genericele sunt exemple de polimorfism.
+(c) Template-urile / genericele nu pot fi folosite cu tipuri de date abstracte definite de utilizator.
+(d) În afară de template-urile / genericele implicite nu pot fi definite altele noi.
+3. Care dintre următoarele afirmaţii sunt adevărate în limbajele C++/Java?
+(a) O funcţie statică nu poate arunca o excepţie.
+(b) O funcţie statică nu poate accesa o variabilă membru non-statică a clasei.
+(c) O funcţie statică nu poate accesa o variabilă membru statică a clasei.
+(d) O variabilă membru statică a clasei nu poate fi modificată într-o funcţie membră non-statică.
+4. Excepţiile sunt:
+(a) Erori care apar la compilarea programului
+(b) Situaţii speciale tratate în program prin teste de tipul if(variabila == NULL)
+(c) Erori care apar la rularea programului
+(d) ’Aruncate’ folosind instrucţiunea try şi ’tratate’ folosind instrucţiunea catch
+(e) ’Aruncate’ folosind instrucţiunea throw(s) şi ’tratate’ în blocuri try - catch (finally)
+5. Selectat, i afirmat, ia corectă pentru instruct, iunea cout de mai jos
+void f(list<string>& lst) {
+list<string>::const_iterator x = find(lst.begin(), lst.end(), "Timisoara");
+if (x==lst.end()) std::cout << "_______________________";
+}
+(a) A gasit Timisoara
+(b) Nu a gasit Timisoara
+(c) Timisoara este ultimul element al listei
+(d) Timisoara este primul element al listei
+6. Principiul OCP (Open Close Principle) din cadrul principiilor SOLID se referă la:
+(a) Responsabilităţile pe care trebuie să le implementeze o clasă
+(b) Realizarea de ierarhii de clase consistente
+(c) Problemele care apar din cauza codului duplicat
+(d) Posibilitatea extinderii claselor şi evitarea modificărilor claselor şi codului existent
+7. Care din următoarele afirmaţii sunt false în contextul supraîncărcării operatorilor în limbajul
+C++:
+33
+
+LIMBAJE DE PROGRAMARE S, I INGINERIE SOFTWARE
+(a) Se pot adăuga noi operatori limbajului
+(b) Se poate schimba n-aritatea (numărul de operanzi ai operatorului)
+(c) Nu toţi operatorii pot fi supraîncărcaţi
+(d) Operatorii se pot supraîncărca prin intermediul funcţiilor membre clasei şi funcţii prietene
+clasei.
+8. În limbajul C++, dacă o clasă X are ca membri variabile pointer, este recomandat să conţină:
+(a) Un destructor care nu face nimic X(){}
+(b) O funcţie friend care să permită copierea obiectului
+(c) Supraîncărcarea operatorului =
+(d) Constructorul de copiere
+(e) Supraîncărcarea operatorului ==
+(f) Un destructor în care se dealocă memoria adresată de membrii de tip pointer ai clasei
+9. Se dă următoarea secvent, ă de cod:
+class Date {
+public:
+Date(int day=0, int month=0, int year=0);
+Date(const Date& ref);
+};
+
+De câte ori sunt apelat, i constructorii
+clasei Date?
+(a) 2
+
+void g(Date d) { }
+void f() {
+Date d{7 , 3, 2007};
+Date d1;
+Date d2 = d;
+d2 = d;
+g(d);
+}
+
+(b) 3
+(c) 4
+(d) 5
+
+10. Care din următoarele afirmat, ii sunt adevărate?
+class Shape { virtual void draw() = 0; };
+struct Rectangle : Shape {
+void addControlPoint(int x, int y);
+};
+
+(a) clasa Rectangle nu poate fi
+instant, iat, ă deoarece metoda
+addControlPoint() nu este implementată
+(b) clasa Rectangle nu poate fi
+instant, iat, ă deoarece este clasă
+abstractă
+
+int main() { Rectangle c; return 0; }
+
+(c) codul se compilează cu succes
+34
+
+LIMBAJE DE PROGRAMARE S, I INGINERIE SOFTWARE
+
+Limbajul Java
+1. Dacă o metodă are ca parametru o referinţă la un obiect imutabil, de exemplu clasa String, poate
+metoda să modifice starea obiectului?
+(a) Da, dacă avem o referinţă la un obiect imutabil îi putem modifica starea
+(b) Da, dar trebuie să folosim un operator special "+" ca să realizăm acest lucru
+(c) Nu, starea obiectelor imutabile nu poate fi modificată de nimeni după ce obiectul a fost creat
+(d) Nu, doar proprietarul obiectului imutabil poate să îi schimbe starea.
+2. Care dintre afirmaţiile de mai jos este adevărată în relaţie cu limbajul Java?
+(a) Specificatorul final se aplică la clase, atribute si metode;
+(b) O metodă declarată final poate apela doar metode declarate final în aceeaşi clasă;
+(c) O metodă declarată final nu poate fi suprascrisă la subclasare;
+(d) Un atribut declarat final poate fi setat doar o singură dată;
+3. Care dintre afirmaţiile de mai jos este/sunt adevărată/e despre conceptul de moştenire între clase?
+(a) Mecanismul prin care o clasă preia structura (datele membru) şi comportamentul (metodele)
+unei alte clase la care adaugă elemente specifice;
+(b) Prin mecanismul de moştenire avem acces la datele private ale clasei(claselor) de bază;
+(c) Nu toate limbajele de programare implementează conceptul de moştenire multiplă;
+(d) O metodă definită în clasa de bază nu poate fi suprascrisă în clasa derivată;
+(e) Moştenirea poate fi întotdeauna înlocuită cu compunerea obiectelor.
+4. Care dintre afirmaţiile de mai jos este/sunt adevărată/e referitor la conceptul de clasă abstractă
+în limbajul Java:
+(a) O clasă care nu poate fi instanţiată;
+(b) Nu există nicio diferenţă între clasele abstracte şi interfeţe;
+(c) O clasă abstractă poate conţine variabile membre care nu sunt constante.
+5. Care dintre afirmaţiile de mai jos sunt adevărate despre clase şi obiecte:
+(a) O clasă modelează caracteristici comune mai multor obiecte;
+(b) Un obiect este o realizare/instant, ă a unei clase;
+(c) O clasă este o realizare/instant, ă a unui obiect;
+(d) Nu există nicio legătură între clase şi obiecte.
+6. Care din următoarele afirmaţii sunt false relativ la limbajul Java:
+35
+
+LIMBAJE DE PROGRAMARE S, I INGINERIE SOFTWARE
+(a) Orice clasă este derivată din clasa Object
+(b) O clasă poate extinde una sau mai multe clase de bază
+(c) O clasă poate implementa una sau mai multe interfeţe
+(d) Subclasele moştenesc atributele, metodele şi constructorii clasei de bază
+7. Care din următoarele afirmat, ii este/sunt adevărate despre clasa PreparedStatement?
+(a) interogarea este compilată de fiecare dată când este executată
+(b) permite rularea aceleias, i interogări, prin compilarea ei o singură dată s, i parametrizarea cu
+valori diferite
+(c) folosirea clasei PreparedStatement evită întotdeauna SQL Injection
+(d) SQL Injection poate fi evitat prin folosirea placeholderului "?"
+8. Două funcţii care au acelaşi nume într-o clasă Java, pot fi diferenţiate datorită:
+(a) Numărului de variabile din lista de parametri
+(b) Nu pot fi diferent, iate
+(c) Tipului variabilelor din lista de variabile
+(d) Tipului de return al funct, iei
+9. Se consideră următoarea secvent, ă de cod:
+class A implements Runnable {
+int counter = 0;
+public void run() {
+while (true) counter ++;
+}
+}
+public class Test{
+public static void main(String [] arg) {
+A a = new A();
+}
+}
+Care din variantele de mai jos instantiază şi lansează în execut, ie un fir de execuţie de tipul clasei
+A?
+(a) (new Thread()).start()
+(b) a.start( );
+(c) a.run( );
+(d) new Thread.run( );
+36
+
+LIMBAJE DE PROGRAMARE S, I INGINERIE SOFTWARE
+10. Considerand următoarea secvent, ă de cod, stabiliţi care este ordinea execut, iei (in ipoteza că o
+clasă are un constructor, o metodă, un bloc static s, i un bloc de instant, ă):
+public class A {
+public A() {
+System.out.print("constructor; ");
+}
+public void method() {
+System.out.print("method; ");
+}
+{
+System.out.print("instance block; ");
+}
+static {
+System.out.print("static block; ");
+}
+public static void main(String[] args) {
+A a = new A();
+a.method();
+}
+}
+(a) instance block; method; static block; constructor;
+(b) static block; instance block; constructor; method;
+(c) method; constructor; instance block; static block;
+(d) static block; method; instance block; constructor;
+(e) constructor; static block; instance block; method;
+11. Se consideră următoarea secvent, ă de cod:
+public class Main {
+public static void main(String[] args) {
+Set<String> fructe = new TreeSet<>(Arrays.asList("mere", "pere",
+"banane", "mere", "kiwi", "ananas", "portocale"));
+System.out.println(fructe);
+}
+}
+Care din variantele de mai jos se va afis, a:
+(a) [mere, pere, banane, kiwi, ananas, portocale]
+37
+
+LIMBAJE DE PROGRAMARE S, I INGINERIE SOFTWARE
+(b) [ananas, banane, kiwi, mere, pere, portocale]
+(c) [Ljava.lang.String; @15db9742]
+(d) [portocale, ananas, kiwi, mere, banane, pere]
+
+Proiectarea aplicaţiilor software
+1. Verificarea software-lui poate implica
+(a) analiza statică automată
+(b) evaluarea utilităt, ii s, i utilizabilităt, ii software-lui în situat, ii operat, ionale.
+(c) depanarea erorilor
+(d) inspectări ale software-lui
+(e) testarea în vederea descoperirii existent, ei erorilor
+(f) testarea faptului că software-ul îndeplines, te cerint, ele utilizator
+2. Diagrama de stări s, i tranzit, ii reprezintă
+(a) funct, iile sistemului
+(b) răspunsul sistemului la evenimente interne
+(c) răspunsul sistemului la evenimente externe
+(d) interact, iuni între obiecte din sistem
+(e) structura datelor
+(f) interact, iunile actorilor cu sistemul
+(g) fluxul de prelucrare a datelor în sistem
+3. Metodele agile de dezvoltare de software implică
+(a) Furnizare incrementală
+(b) Implicarea clientului pe parcursul procesului de dezvoltare
+(c) Instituirea de procese normative pentru lucrul în echipă
+(d) Act, iuni periodice de eliminare a complexităt, ii din sistem
+(e) Modelarea completă a software-lui înainte de scrierea codului
+4. Bifat, i situat, iile in care se reutilizează doar concepte:
+(a) Servicii software
+(b) S, abloane de proiectare (design patterns)
+(c) Biblioteci de programe
+(d) S, abloane arhitecturale
+38
+
+LIMBAJE DE PROGRAMARE S, I INGINERIE SOFTWARE
+5. Fie următoarea diagramă de clase.
+
+Bifat, i afirmat, iile adevărate.
+(a) Un obiect de tip ComputerScience cont, ine o colect, ie de obiecte de tip Student
+(b) Clasa Questionnaire are un atribut public de tip String
+(c) Clasa ComputerScience are operat, ia publică addStudent(s:Student)
+(d) Clasa ComputerScience are operat, ia privată setSchedule(s:String)
+(e) Clasa Tutor este superclasă pentru clasa Masterand
+(f) Clasa ComputerScience defines, te o compozit, ie de obiecte de tip Questionnaire.
+(g) Între clasa ComputerScience s, i clasa Tutor există o asociere unidirect, ională.
+(h) Clasa ComputerScience mos, tenes, te interfat, a Specialization.
+(i) Clasa Tutor defines, te un agregat de obiecte de tip Masterand.
+6. Fie următoarea diagramă de clase.
+
+Care secvent, ă de cod Java descrie corect s, i complet relat, iile clasei Proiect ?
+(a) class Proiect extends Student {
+private Collection <DiagramaUML> diagramele = new ArrayList<>();
+private CodSursa codul;
+...}
+(b) class Proiect {
+private Collection <Student> studenti;
+private Collection <DiagramaUML> diagramele = new ArrayList<>();
+private CodSursa codul;
+...}
+
+39
+
+LIMBAJE DE PROGRAMARE S, I INGINERIE SOFTWARE
+(c) class Proiect {
+private Student student;
+private DiagramaUML diagrama;
+private CodSursa codul;
+...}
+
+(d) class Proiect {
+private Collection <Student> studenti = new ArrayList<>();
+private Collecction <DiagramaUML> diagramele;
+private CodSursa codul;
+...}
+7. Fie următoarea diagramă de clase.
+
+Care secvent, ă de cod Java descrie corect s, i complet relat, iile clasei Revista ?
+(a) class Revista extends RevistaOnLine implements Produs {
+private Collection <Articol> articole;
+...}
+(b) class Revista implements Produs {
+private Collection <Articol> articole = new LinkedList<>();
+private RevistaOnLine revista;
+...}
+(c) class Revista implements Produs {
+private Collection <Articol> articole = new LinkedList<>();
+...}
+(d) class Revista extends RevistaOnLine {
+private Collection <Articol> articole = new LinkedList<>();
+private Produs produs;
+...}
+
+40
+
+LIMBAJE DE PROGRAMARE S, I INGINERIE SOFTWARE
+8. Fie următoarea diagramă de clase.
+
+Selectat, i descrierea corectă s, i completă a relat, iilor reprezentate în diagramă:
+(a) Asociere bidirect, ională, între clasele Proiect s, i CodSursa; compozit, ie între clasele Proiect
+(compozit) s, i DiagramaUML (componenta); agregare între clasele Proiect (agregat) s, i Student
+(componenta); generalizare între interfat, a IStudent(implementată) s, i clasa Student (implementează); realizare între clasa Student(superclasa) s, i clasa Bursier (subclasa)
+(b) Asociere bidirect, ională, între clasele Proiect s, i CodSursa; compozit, ie între clasele Proiect
+(compozit) s, i DiagramaUML (componenta); agregare între clasele Proiect (agregat) s, i Student
+(componenta); realizare între interfat, a IStudent (implementată) s, i clasa Student (implementează); generalizare între clasa Student(superclasa) s, i clasa Bursier(subclasa)
+(c) Asociere bidirect, ională, între clasele Proiect s, i CodSursa; agregare între clasele Proiect
+(agregat) s, i DiagramaUML(componenta); compozit, ie între clasele Proiect (agregat) s, i Student
+(componenta); realizare între interfat, a IStudent (implementată) s, i clasa Student (implementează); generalizare între clasa Student (superclasa) s, i clasa Bursier (subclasa)
+(d) Asociere bidirect, ională, între clasele Proiect s, i CodSursa; compozit, ie între clasele DiagramaUML
+(compozit) s, i Proiect(componenta); agregare între clasele Student (agregat) s, i Proiect
+(componenta); realizare între interfat, a IStudent(implementată) s, i clasa Student (implementează); generalizare între clasa Student (superclasa) s, i clasa Bursier (subclasa)
+9. Fie următoarea diagramă de clase.
+
+Care secvent, ă de cod Java descrie corect s, i complet relat, ia clasei Proiect cu clasa Student?
+(a) class Student extends Proiect{...}
+class Proiect{...}
+(b) class Proiect extends Student{...}
+class Student{...}
+41
+
+LIMBAJE DE PROGRAMARE S, I INGINERIE SOFTWARE
+(c) class Proiect {
+private Collection <Student> studenti ...}
+class Student{...}
+(d) class Proiect {
+private Collection <Student> studenti ...}
+class Student {
+private Proiect proiect;
+...}
+(e) class Proiect {
+private Collection <Student> studenti ...}
+class Student {
+private Collection<Proiect> proiecte;
+...}
+10. Fie următoarea diagramă de secvent, e.
+
+Ce operat, ii ale clasei ControlerInscriere rezultă din aceasta?
+(a) getCursuri()
+(b) display(listaCursuriOferite)
+(c) inscriere(student, listaCursuriSelectate)
+(d) Plan(listaCursuriSelectate)
+(e) addPlan(planCurent)
+42
+
+LIMBAJE DE PROGRAMARE S, I INGINERIE SOFTWARE
+(f) displayMsg(”OK”)
+11. Fie următoarea diagramă de secvent, e.
+
+Selectat, i clasele din care sunt instant, iate obiectele implicate în interact, iune:
+(a) InscriereForm
+(b) ControlerInscriere
+(c) listaCursuriSelectate
+(d) curent
+(e) Student
+(f) Plan
+(g) planCurent
+12. Fie următoarea diagramă de robustet, e.
+
+Care afirmat, ii sunt adevărate?
+(a) Home page este obiect boundary.
+(b) ExtrageListaCarti poate fi obiect persistent.
+(c) AfiseazaLinkuri este obiect de interact, iune cu actor.
+43
+
+LIMBAJE DE PROGRAMARE S, I INGINERIE SOFTWARE
+(d) ExtrageListaCarti ar putea fi implementat ca metodă a unei clase entity.
+(e) ListaCarti este obiect de interact, iune cu actor.
+(f) Catalog este obiect entity.
+13. Selectat, i perechea de termeni cu care se înlocuiesc spat, iile libere din următoarea frază:
+"În jocul Essence ‘Checkpoint construction’, un checkpoint este un set de . . . . . . ce trebuie îndeplinite la un anume moment în timp, în cadrul unui efort de dezvoltare de software, S, I este
+definit în termeni de . . . . . .."
+(a) criterii / activităt, i
+(b) componente / roluri
+(c) alphas / activity spaces
+(d) criterii / alpha states
+(e) alpha states / criterii
+14. Realizaţi corespondenţa corectă între concept şi definiţia sa:
+(a) Caz de testare
+(b) Testarea regresiilor
+(c) Testare la suprasolicitare
+(d) Testarea performanţei
+(e) Testare unitate
+
+[1] re-aplicarea unui set de teste existent.
+[2] procesul de testare a componentelor individuale în
+regim de izolare.
+[3] serie de teste în care încărcarea este crescută treptat.
+[4] utilizarea sistemului dincolo de încărcarea maximă pentru
+care a fost proiectat.
+[ 5] specificaţiile intrărilor testului şi a rezultatelor aşteptate
+de la sistem, plus precizarea entităţii testate.
+
+(a) a – 5, b – 1, c – 4, d – 3, e – 2
+(b) a – 5, b – 3, c – 4, d – 1, e – 2
+(c) a – 2, b – 1, c – 3, d – 4, e – 5
+(d) a – 1, b – 2, c – 3, d – 4, e – 5
+(e) a – 3, b – 2, c – 4, d – 5, e – 1
+15. Selectat, i metodele de evitare a introducerii de erori în dezvoltarea de programe:
+(a) Fiecare clasă trebuie să aibă o singură reponsabilitate
+(b) Folosire expresii regulate pentru validarea datelor de intrare
+(c) Evitarea încuibării multiple de instruct, iuni condit, ionale
+(d) Jurnalizarea interact, iunii utilizatorilor cu programul
+(e) Înlocuirea corpului unei metode cu un nou algoritm mai clar care returnează acelaşi rezultat
+(f) Minimizarea adâncimii ierahiilor de clase
+44
+
+LIMBAJE DE PROGRAMARE S, I INGINERIE SOFTWARE
+(g) Salvare automată a datelor utilizatorului la intervale presetate
+(h) Identificarea aspectelor care variază ale unei aplicat, ii s, i separarea lor de cele care nu variază
+(i) Verificare valori date de intrare fat, ă de domeniul definit cu reguli de intrare
+(j) Folosire asert, iuni pentru verificare rezultat de la un serviciu extern
+
+Baze de date
+1. Se consideră tabela R(A) conţinând înregistrările {(1), (2)} şi tranzacţiile
+(T1) UPDATE R SET A = A*2
+(T2) SELECT AVG(A) FROM R; SELECT MAX(A) FROM R
+Dacă tranzacţia T2 se execută folosind nivelul de izolare repeatable read, care dintre următoarele
+afirmaţii este adevărată
+(a) Dacă AVG(A) = 1.5 atunci MAX(A) poate să ia valorile 2 sau 4
+(b) AVG(A) va fi întodeauna 1.5 iar MAX(A) = 2
+(c) AVG(A) poate să ia valorile 1.5 sau 3, iar MAX(A) valorile 2 sau 4
+(d) Dacă MAX(A) = 4 atunci AVG(A) este 1.5
+2. Trei dintre expresiile relaţionale de mai jos returnează numele studenţilor care nu au aplicat
+la specializările CS sau PH. Care returnează altceva? (Observaţie: numele studenţilor pot fi
+duplicate.)
+(a) πsN ame (Student ▷◁
+(πsID (Student) − (πsID (σmajor=′ CS ′ Apply) ∪ πsID (σmajor=′ P H ′ Apply))))
+(b) πsN ame (Student ▷◁
+(πsID Student − πsID (σmajor=′ CS ′ ∨ major=′ P H ′ Apply)))
+(c) πsN ame (πsID,sN ame Student −
+πsID,sN ame (Student ▷◁ πsID (σmajor=′ CS ′ ∨ major=′ P H ′ Apply)))
+(d) πsN ame Student −
+πsN ame (Student ▷◁ πsID (σmajor=′ CS ′ ∨ major=′ P H ′ Apply))
+3. Tabelul de mai jos conţine un eşantion de date reprezentativ pentru toate dependenţele funcţionale
+dintr-un set de date real. Care sunt dependenţe funcţionale ce pot fi extrase din aceste date?
+A
+100
+100
+100
+101
+151
+200
+
+B
+Timişoara, str. Revolutiei
+Timişoara, str. Revolutiei
+Timişoara, str. Revolutiei
+Timişoara, str. Revolutiei
+Deta, str. Principală
+Arad, str. Republicii
+45
+
+C
+TM
+TM
+TM
+TM
+TM
+AR
+
+D
+1234
+123
+10
+10
+1234
+1234
+
+E
+PA
+PB
+A
+A
+PA
+PB
+
+F
+Descriere A
+Descriere B
+Descriere A
+Descriere A
+Descriere A
+Descriere B
+
+LIMBAJE DE PROGRAMARE S, I INGINERIE SOFTWARE
+(a) A → {B, C}, E → {F}
+(b) D → {A, B, C, E, F}, F → {E}
+(c) {A, E} → {D}
+(d) {D, E} → {A, B}
+4. Considerând relaţia R(A, B, C, D, E, F) unde A - F sunt coloanele din tabelul de mai sus şi
+dependenţele funcţionale tot cele de mai sus, care dintre următoarele seturi de atribute este cheie
+candidată?
+(a) {B, F}
+
+(b) {A, E}
+
+(c) {A, E, D}
+
+(d) {A}
+
+5. Relativ la relaţia R de mai sus, care dintre următoarele afirmaţii sunt false?
+(a) Relaţia se află în prima formă normală
+(b) Relaţia se află în a doua formă normală
+(c) La o adresă (coloana B) nu pot corespunde valori diferite în coloana A
+(d) Nu pot exista două înregistrări în tabela R cu valori diferite în coloana D dacă valorile din
+coloana A sunt identice
+6. Fie următoarea diagramă E/R.
+
+Care dintre următoarele relat, ii fac parte din reprezentarea acestei diagrame în modelul relaţional?
+(a) Courses(CID, title)
+(b) Students(SID, name)
+(c) Enroll(SID,CID)
+(d) Enroll(SID, name, CID, title, grade)
+(e) Students(SID, name, CID)
+(f) Enroll(SID, CID, grade)
+7. Presupunem că în tabela EMPLOYEES sunt 10 angajat, i care au salarii de 1000 euro fiecare, cu
+except, ia unuia care are valoarea NULL s, i că primii 5 angajat, i lucrează în departamentul 1 s, i
+ceilalt, i 5 angajat, i în departamentul 2. Câte linii va afis, a interogarea următoare:
+46
+
+LIMBAJE DE PROGRAMARE S, I INGINERIE SOFTWARE
+
+SELECT department_id, SUM(salary)
+FROM employees
+GROUP BY department_id
+HAVING SUM(NVL(salary,1000)) > 4000;
+(a) Nicio linie
+(b) O linie
+(c) Două linii
+(d) Un alt răspuns
+8. Care dintre interogările de mai jos selectează identificatorul (ID) s, i numele departamentelor care
+nu au angajat, i? Coloana DEPARTMENT_ID este comună tabelelor EMPLOYEES s, i DEPARTMENTS.
+(a) SELECT d.department_id, d.department_name
+FROM departments d
+WHERE NOT EXISTS (SELECT 1 FROM employees e WHERE e.department_id=d.department_id);
+(b) SELECT d.department_id, d.department_name
+FROM employees e LEFT OUTER JOIN departments d
+ON (d.department_id=e.department_id) WHERE e.department_id IS NULL;
+(c) SELECT d.department_id, d.department_name
+FROM employees e RIGHT OUTER JOIN departments d
+ON (d.department_id=e.department_id) WHERE e.department_id IS NULL;
+(d) SELECT department_id, department_name
+FROM departments
+MINUS
+SELECT d.department_id, d.department_name
+FROM employees e JOIN departments d ON e.department_id=d.department_id;
+9. Dacă se dores, te afis, area tuturor locat, iilor care nu au niciun departament, precum s, i a departamentelor care nu au fost asignate niciunei locat, ii, ce tip de JOIN între tabelele DEPARTMENTS
+s, i LOCATIONS va afis, a aceste informat, ii ca parte din liniile returnate?
+(a) NATURAL JOIN
+(b) FULL OUTER JOIN
+(c) LEFT OUTER JOIN
+47
+
+LIMBAJE DE PROGRAMARE S, I INGINERIE SOFTWARE
+(d) RIGHT OUTER JOIN
+10. Care dintre afirmat, iile referitoare la indecs, i sunt corecte?
+(a) Când un tabel este s, ters, indecs, ii corespunzători acestuia sunt s, ters, i automat.
+(b) Pentru fiecare operat, ie DML realizată, indecs, ii corespunzători sunt actualizat, i automat.
+(c) Indecs, ii se recomandă a fi creat, i pentru coloane care sunt în mod frecvent referite ca parte a
+unei expresii.
+(d) Pentru fiecare constrângere de cheie primară sau cheie unică (PRIMARY KEY sau UNIQUE)
+dintr-un tabel se creează automat un index unic.
+11. Prin următoarea instruct, iune SQL se dores, te a regăsi liniile din tabelul ORDER_ITEMS aferente
+produselor identificate prin PRODUCT_ID care au un UNIT_PRICE mai mare decât 1000 s, i
+care au fost comandate de mai mult de 5 ori.
+SELECT product_id, COUNT(order_id) total, unit_price
+FROM order_items
+WHERE unit_price>1000 AND COUNT(order_id)>5
+GROUP BY product_id, unit_price;
+Care afirmat, ii sunt adevărate cu privire la instruct, iunea SQL de mai sus:
+(a) Instruct, iunea se execută s, i furnizează rezultatul as, teptat.
+(b) Instruct, iunea nu se execută întrucât funct, ia de agregare este utilizată în clauza WHERE.
+(c) Instruct, iunea ar trebui să utilizeze operatorul logic OR în loc de AND.
+(d) Instruct, iunea nu se execută deoarece în clauza SELECT coloana UNIT_PRICE este adăugată după coloana pentru care este utilizată funct, ia de agregare.
+12. Se dores, te afis, area coloanelor FIRST_NAME s, i SALARY aferente angajat, ilor din tabelul EMPLOYEES care au acelas, i s, ef (MANAGER_ID) cu al angajatului identificat prin EMPLOYEE_ID
+= 101 s, i care au un salariu mai mare sau egal cu al aceluias, i angajat identificat prin EMPLOYEE_ID = 101. Care dintre interogările următoare vor afis, a rezultatul dorit?
+(a) SELECT first_name, salary
+FROM employees
+WHERE (manager_id, salary) >= ALL (SELECT manager_id, salary
+FROM employees WHERE employee_id = 101)
+AND employee_id <> 101;
+
+48
+
+LIMBAJE DE PROGRAMARE S, I INGINERIE SOFTWARE
+(b) SELECT first_name, salary
+FROM employees
+WHERE (manager_id, salary) >= ( SELECT manager_id, salary
+FROM employees
+WHERE employee_id = 101)
+AND employee_id <> 101;
+(c) SELECT first_name, salary
+FROM employees
+WHERE (manager_id, salary) >= ANY (SELECT manager_id, salary
+FROM employees
+WHERE employee_id = 101 AND employee_id <> 101);
+(d) SELECT first_name, salary
+FROM employees
+WHERE manager_id = (SELECT manager_id
+FROM employees
+WHERE employee_id = 101)
+AND salary >= (SELECT salary
+FROM employees
+WHERE employee_id = 101)
+AND employee_id <> 101;
+(e) SELECT e.first_name, e.salary
+FROM employees e, employees m
+WHERE m.employee_id = 101 AND e.manager_id = m.manager_id
+AND e.salary >= m.salary AND e.employee_id <> m.employee_id;
+13. Evaluat, i următoarea instruct, iune CREATE TABLE:
+CREATE TABLE products
+(product_id NUMBER(6) CONSTRAINT prod_id_pk PRIMARY KEY,
+product_name VARCHAR2(15));
+Care afirmat, ii sunt adevărate cu privire la constrângerea PROD_ID_PK?
+(a) Ar fi creată numai dacă în prealabil este creat manual un index unic.
+(b) Ar fi creată s, i ar folosi un index unic creat automat.
+(c) Ar fi creată s, i ar folosi un index non-unic creat automat.
+(d) Ar fi creată s, i ar rămâne în stare dezactivată deoarece nu e specificat explicit niciun index
+în comandă.
+14. Fiind dată vederea V de mai jos, în ce condit, ii comanda SQL de mai jos va genera o except, ie
+cauzată de constrângerea WITH CHECK OPTION?
+49
+
+LIMBAJE DE PROGRAMARE S, I INGINERIE SOFTWARE
+
+UPDATE V SET Curs = ’Baze de date II’ WHERE ID=101;
+CREATE VIEW V(ID, Curs, EDate) AS
+SELECT StudID, CourseTitle, EnrollmentDate
+FROM Enrollments
+WHERE CourseTitle=’Algebra’ AND Accepted=1
+WITH CHECK OPTION;
+(a) Întotdeauna datorită WITH CHECK OPTION
+(b) Dacă studentul cu ID-ul 101 a fost acceptat la cursul de Algebra
+(c) Dacă studentul cu ID-ul 101 a fost acceptat la cursul de Baze de date II
+(d) Dacă studentul cu ID-ul 101 a aplicat la cursul de Algebră (indiferent de starea câmpului
+Accepted)
+
+50
+
+LIMBAJE DE PROGRAMARE S, I INGINERIE SOFTWARE
+
+Răspunsuri
+Limbajul Python
+
+Limbajul C
+
+1. (a)
+
+1. (c)
+
+2. (a)
+
+2. (c)
+
+3. (a)
+
+3. (b)
+
+4. (a)
+
+4. (c)
+
+5. (c)
+
+5. (b)
+
+6. (b)
+
+6. (a)
+
+7. (a), (d)
+
+7. (c), (d), (e)
+
+8. (d)
+
+8. (b)
+
+9. (c)
+
+9. (c)
+
+10. (b)
+
+10. (c)
+11. (b)
+
+Limbajul C++
+
+Limbajul Java
+
+1. (a), (c), (d)
+
+1. (c)
+
+2. (a), (b)
+
+2. (a), (c), (d)
+
+3. (b)
+
+3. (a), (c)
+
+4. (c), (e)
+
+4. (a), (c)
+
+5. (b)
+
+5. (a), (b)
+
+6. (d)
+
+6. (b), (d)
+
+7. (a), (b)
+
+7. (b), (d)
+
+8. (c), (d), (f)
+
+8. (a), (c)
+
+9. (c)
+
+9. (b)
+
+10. (b)
+
+10. (b)
+11. (b)
+
+51
+
+LIMBAJE DE PROGRAMARE S, I INGINERIE SOFTWARE
+
+Proiectarea aplicaţiilor software
+
+Baze de date
+
+1. (a), (d), (e)
+
+1. (c)
+
+2. (b), (c)
+
+2. (d)
+
+3. (a), (b), (d)
+
+3. (a), (c)
+
+4. (b), (d)
+
+4. (b)
+
+5. (a), (c), (e), (f)
+
+5. (b), (c), (d)
+
+6. (b)
+
+6. (a), (b), (f)
+
+7. (c)
+
+7. (c)
+
+8. (b)
+
+8. (a), (c), (d)
+
+9. (c)
+
+9. (b)
+
+10. (a),(c)
+
+10. (a), (b), (d)
+
+11. (a),(b),(e),(f)
+
+11. (b)
+
+12. (a),(d),(f)
+
+12. (d), (e)
+
+13. (d)
+
+13. (b)
+
+14. (a)
+
+14. (b)
+
+15. (a), (c), (e), (f), (h)
+
+52
+
+SISTEME DE CALCUL
+
+Arhitectura calculatoarelor
+1. Registrul Program Contor cont, ine:
+(a) adresa următoarei instruct, iuni din memorie
+(b) adresa datelor extrase din memorie
+(c) rezultatul operat, iilor aritmetice efectuate
+(d) adresa de unde va fi extrasă instruct, iunea ce urmează a fi executată
+2. Timpul mediu necesar pentru a accesa o locat, ie de memorie s, i a prelua cont, inutul acesteia poartă
+numele de:
+(a) timp de latent, ă
+
+(b) timp de căutare
+
+(c) timp de acces
+
+(d) timp de răspuns
+
+3. Tipul de memorie folosit pentru a cres, te viteza de procesare a unui calculator este:
+(a) RAM
+
+(b) Cache
+
+(c) BIOS
+
+(d) ROM
+
+4. Suma dintre -6 şi – 13, folosind reprezentarea în complement faţă de 2, este:
+(a) 11101101
+
+(b) 11100001
+
+(c) 01010101
+
+(d) 10101011
+
+5. Care este valoarea stocată la adresa c după executarea următoarei secvent, e de cod?
+x
+y
+c
+start
+
+DAT A
+DAT A
+DAT A
+LDA
+CM P
+JGE
+ADD
+ST A
+JM P
+adr1 SU B
+ST A
+adr2 ST OP
+EN D
+
+(a) 3C 16
+
+4B
+F
+0
+x
+y
+adr1
+y
+c
+adr2
+y
+c
+start
+(b) 208
+
+(c) 5910
+
+(d) 111100
+
+6. Ce tehnică ajută procesorul să ruleze un program concomitent cu operat, iile de intrare/ies, ire?
+(a) DMA
+53
+
+SISTEME DE CALCUL
+(b) transfer prin program
+(c) niciunul dintre răspunsuri
+(d) transfer prin întreruperi
+7. Care este cea mai mare unitate de transfer a datelor din memoria unui sistem de calcul?
+(a) cuvânt
+(b) bloc
+(c) bit
+(d) niciuna dintre acestea
+8. Pentru un număr dat/fix de bit, i, numărul de valori distincte care pot fi reprezentate este:
+(a) mai mare pentru întregi fără semn
+(b) mai mare pentru întregi cu semn
+(c) acelas, i pentru întregi cu semn s, i întregi fără semn
+9. Diferent, a între procesoarele CISC s, i RISC constă în:
+(a) procesoarele CISC au un număr mai mare de instruct, iuni
+(b) procesoarele RISC prezintă riscuri mai mari în utilizare
+(c) procesoarele RISC execută o instruct, iune într-un singur ciclu
+10. O întrerupere hardware reprezintă:
+(a) un semnal sincron/asincron la un periferic care semnalizează aparit, ia unui eveniment care
+trebuie tratat de către procesor
+(b) întreruperea funct, ionării procesorului în urma unui bug software
+(c) întreruperea unui circuit de conectare între două sau mai multe componente hardware
+11. Arhitectura Harvard are:
+(a) două magistrale, una pentru date s, i una pentru instruct, iuni
+(b) două memorii, una pentru date s, i una pentru instruct, iuni/program
+(c) drept dezavantaj major faptul că magistrala de date este mai ocupată decât magistrala de
+program
+12. La magistralele sincrone:
+(a) ciclurile de transfer sunt direct corelate cu semnalul de tact (CPU clock)
+(b) nu există o legatură directă între evolut, ia în timp a unui ciclu de transfer s, i semnalul de tact
+al ceasului procesorului
+54
+
+SISTEME DE CALCUL
+(c) se face permanent o sincronizare a acestora cu magistralele asincrone
+13. O poartă logică este:
+(a) un program software capabil sa efectueze o anumită operat, ie (logică) asupra unor semnale
+electrice
+(b) un conector care permite preluarea valorilor logice de la utilizator
+(c) un dispozitiv hardware capabil să efectueze o anumită operat, ie (logică) asupra unor semnale
+electrice
+14. Circuitele de memorare SR-latch (S-Set, R-Reset):
+(a) Stochează o singură valoare binară
+(b) Ies, irile celor două port, i logice folosite pentru realizare sunt tot timpul complementare
+(c) Setează si resetează în mod continuu valorile numerice stocate
+15. Circuit combinat, ional:
+(a) Este un circuit format din port, i logice, care nu are memorie s, i al cărui output depinde doar
+de inputul prezent/curent, NU de inputul precedent sau de starea curentă în care se afla
+circuitul
+(b) Este un circuit electric in care informat, iile sunt combinate în mod aleator pentru a obt, ine
+valori aleatoare
+(c) Este un circuit care transpus într-un graf nu cont, ine cicluri
+16. Procesoarele RISC se deosebesc de procesoarele CISC prin:
+(a) un număr mai mare de regis, trii
+(b) mai multe moduri de adresare a memoriei
+(c) mai put, ine moduri de adresare a memoriei
+(d) execut, ia mai rapidă a operat, iilor aritmetice s, i logice
+17. Un circuit de memorare de tip SR-latch:
+(a) poate fi realizat numai cu port, i NAND
+(b) poate stoca o valoare de tip real
+(c) poate stoca doar o valoare de tip Boolean
+18. Un microprocesor îndeplines, te următoarele funct, ii:
+(a) manipulare informaţii (instrucţiuni, date transmise, date primite)
+(b) execuţie operaţii de calcul
+(c) control şi supervizare
+55
+
+SISTEME DE CALCUL
+(d) verificare semantică a unui program software
+19. Semnalele unui microprocesor sunt
+(a) semnale de întrerupere
+(b) semnale pentru arbitrarea magistralei
+(c) semnale de verificare conexiune Internet
+20. În cazul unei magistrale sincrone:
+(a) producerea unui eveniment depinde de producerea evenimentului anterior;
+(b) toate dispozitivele conectate la magistrală pot citi linia de sincronizare
+(c) doar dispozitivele de intrare conectate la magistrală pot citi linia de sincronizare
+21. În cazul familiei de procesoare x86, registrul pointer de instruct, iuni (IP – Instruction Pointer)
+(a) cont, ine adresa primei instruct, iuni de executat dintr-un program
+(b) nu poate fi modificat sau citit în mod direct
+(c) indică adresa de deplasament plecând de la adresa cont, inută în registrul CS (adresa de baza)
+22. Care este rolul unităt, ii de comandă s, i control în cadrul UCP?
+(a) Stochează instruct, iunile programului
+(b) Decodifică instruct, iunile programului
+(c) Efectuează operat, ii logice
+(d) Toate variantele enumerate
+23. Care dintre următoarele unităt, i de memorie comunică direct cu UCP?
+(a) Memoria auxiliară
+(b) Memoria principală
+(c) Memoria secundară
+(d) Niciuna dintre variantele enumerate
+24. O magistrală a unui sistem de calcul constă din:
+(a) Un set de linii paralele
+(b) Acumulatori
+(c) Registre
+(d) Niciuna dintre variantele enumerate
+
+56
+
+SISTEME DE CALCUL
+25. Reprezentarea în virgulă mobilă, simplă precizie, a numărului zecimal −12, 25 este:
+(a) 1 10000010 10001000000000000000000
+(b) 1 01111100 10001000000000000000000
+(c) 0 10000010 10001000000000000000000
+
+Sisteme de operare
+1. Care dintre următoarele mecanisme pot fi folosite pentru o implementare corectă a problemei
+secţiunii critice fără utilizarea asteptării active?
+(a) semafoare
+(b) algoritmul lui Dekker
+(c) algoritmul lui Peterson
+(d) mecanismul TSL
+(e) monitoare
+2. Se consideră 5 segmente de memorie (A, B, C, D, E) cu mărimile 2k, 6k, 4k, 3k, 4k şi o memorie
+totală de 16k. În memorie se încarcă în ordine segmentele A, B, C, D. Care dintre aceste segmente
+urmează să fie evacuat pentru a putea permite încărcarea ulterioară a segmentului E?
+(a) A
+
+(b) B
+
+(c) C
+
+(d) D
+
+(e) niciunul
+
+3. Care dintre problemele clasice de comunicare între procese pune în evidenţă o situaţie de impas?
+(a) Problema filosofilor la masă
+(b) Problema cititorilor şi scriitorilor
+(c) Problema producător-consumator
+(d) Problema frizerului
+(e) niciuna dintre aceste probleme
+4. Se consideră un set de 10 procese planificate conform algoritmului Round Robin. Se cunosc
+următoarele informaţii: cuanta utilizată este 8, numărul final de comutări de context este 25,
+valoarea raportului T1 /T2 = 2.25, unde T1 şi T2 sunt timpii estimaţi de execuţie pentru cel mai
+lung si cel mai scurt proces, pentru care timpul estimat de execuţie depăşeşte valoarea cuantei
+(cu cel putin 25%). Determinaţi cea mai mică valoare posibilă pentru perechea (T1 , T2 ).
+(a) 27, 12
+
+(b) 31, 14
+
+(c) 34, 15
+
+(d) 36, 16
+
+5. Se consideră un set de 10 procese planificate conform algoritmuluii SJF, în care procesele sosesc
+în sistem la momentele T1 = 0, T2 = 13, T3 = 26. La fiecare moment sosesc cel puţin 3 procese, cu
+timpi estimaţi de execuţie diferiţi. Dacă pentru procesele P1 , P5 şi P7 avem timpii de aşteptare
+57
+
+SISTEME DE CALCUL
+0, 0, 0 şi timpii de răspuns 14, 3, 6, identificaţi la ce moment a sosit procesul P1 , apoi răspundeţi la
+următoarea întrebare: determinaţi timpii estimaţi de execuţie pentru cel puţin 6 procese, ştiind
+că nu există perioade de pauză ale procesorului şi că pot exista procese cu acelaşi timp estimat
+de execuţie, sosite la momente diferite?
+(a) 3,4,5,6,7,8
+
+(b) 3,4,5,6,6,8
+
+(c) 3,4,5,6,7,14
+
+(d) 3,4,6,6,7,14
+
+6. Un sistem pe 16 biţi cu 8 pagini virtuale şi 4 pagini cadru este folosit pentru paginare algoritmul
+FIFO. La un moment dat, în memorie sunt mapate paginile (2, 5, 7, 1). După acest moment vor fi
+accesate următoarele adrese: 12411, 16729, 2560, 9215, 20952. Care va fi maparea paginilor după
+ultima accesare, ştiind că următoarea pagină evacuată este prima pagină cadru?
+(a) 5 2 0 4
+
+(b) 3 4 2 5
+
+(c) 2 5 0 3
+
+(d) 5 4 0 2
+
+7. Un sistem pe 16 biţi cu 8 pagini virtuale şi 4 pagini cadru este folosit pentru paginare algoritmul
+Ceasului, fără îmbătrânire. La un moment dat, în memorie sunt mapate paginile (2, 5, 7, 1) iar
+următoarea pagină testată va fi prima pagină cadru. După încercările de acces către paginile,
+1, 2, 3, 4, 5, 7 (nu neaparat în această ordine) maparea devine (1, 5, 7, 2). Care dintre cele 4 pagini
+iniţiale au avut bitul R setat?
+(a) toate
+
+(b) niciuna
+
+(c) paginile 5 s, i 7
+
+(d) paginile 2, 5 s, i 7
+
+8. Se consideră 3 fire de control a execuţiei care partajează variabilele A şi B. Accesul către cele
+două variabile este nerestricţionat, iar operaţiile realizate sunt, în fiecare fir de control a execuţiei,
+următoarele A = A + B, B = A − B, A = A − B. Precizaţi care dintre următoarele valori sunt
+posibile la sfârşitul execuţiei celor trei fire de control, atunci când A = 5, B = 7
+(a) A = 5, B = 7
+
+(b) A = 7, B = 5
+
+(c) A = −29, B = 17
+
+(d) A = −31, B = 19
+
+9. Se consideră o situaţie simplă cu 6 procese şi un singur tip de resurse. Starea sistemului este
+descrisă prin Are = (4, 2, 0, 5, 1, 4), M ax = (8, 10, 10, 25, 25, 30), Disponibil = D. Determinaţi
+valoarea minimă D pentru care starea este sigură şi permite apoi alocarea a 3 resurse suplimentare
+către procesul al doilea.
+(a) D = 12
+
+(b) D = 14
+
+(c) D = 13
+
+(d) D = 11
+
+10. Se consideră o situaţie simplă cu 6 procese şi un singur tip de resurse. Starea sistemului este
+descrisă prin Are = (4, 2, 0, 5, 1, 4), M ax = (14, 6, 8, 29, 27, 24), Disponibil = D. Determinaţi
+valoarea minimă D pentru care starea este sigură şi permite apoi alocarea a 3 resurse suplimentare
+către procesul al treilea.
+
+58
+
+SISTEME DE CALCUL
+(a) D = 11
+
+(b) D = 13
+
+(c) D = 14
+
+(d) D = 12
+
+11. Care dintre următoarele operat, ii reprezintă operat, ii atomice permise asupra semafoarelor?
+(a) wait
+(b) up
+(c) sleep
+
+(d) down
+(e) niciuna dintre acestea
+
+12. O instruct, iune TSL ar trebui să fie executată?
+(a) după fiecare proces în parte
+
+(c) într-o manieră atomică
+
+(b) periodic
+
+(d) în niciuna dintre situat, iile precizate
+
+13. O unitate de execut, ie care nu poate fi intreruptă este
+(a) simplă
+(b) statică
+(c) atomică
+
+(d) dinamică
+(e) niciuna dintre acestea
+
+14. Precizat, i principalele dezavantaje ale spinlock-urilor
+(a) nu sunt eficiente pentru multe procese
+(b) implică tehnici de as, teptare activă
+(c) pot fi nesigure ocazional
+(d) sunt prea complexe pentru programatori
+(e) niciuna dintre acestea
+15. Fiecare dintre procesele Pi , cu i = 0, 1, . . . , 9 este caracterizat prin următoarea secvent, ă de cod
+repeat
+down(mutex)
+{Critical Section}
+up(mutex)
+forever
+Într-un al 11-lea proces, P10 , liniile up(mutex) s, i down(mutex) au fost inversate. Care este
+numărul maxim de procese care s-ar putea găsi simultan în regiunea critică în acest caz, s, tiind că
+init, ial este permisă trecerea prin mutex?
+
+59
+
+SISTEME DE CALCUL
+(a) 1
+(b) 2
+(c) 3
+
+(d) Oricare dintre variantele a), b), c)
+(e) Niciuna dintre variantele a), b), c)
+
+16. Într-un sistem se găsesc trei procese concurente, care cont, in următoarele bucăt, i de cod, sincronizate prin trei semafoare binare. Semafoarele sunt init, ializate cu valorile S0 = 1, S1 = 0 s, i
+S2 = 0.
+Process P0
+while(true)
+{
+down(S0);
+print ’0’;
+up(S1);
+up(S2);
+}
+Process P1
+down(S1);
+up(S0);
+Process P2
+down(S2);
+up(S0);
+De câte ori va executa primul proces linia print ‘0’ ?
+(a) Cel put, in de două ori
+(b) Exact de două ori
+(c) Exact de trei ori
+
+(d) Cel mult de trei ori
+(e) Exact o dată
+
+17. Se consideră un set de patru procese, cu timpi estimat, i de execut, ie 2, 3, 4 s, i 5. Fiecare dintre
+procese are două execut, ii succesive separate printr-un ciclu de operat, ii de intrare/ies, ire. Planificarea proceselor este FIFO. S, tiind că timpii de răspuns, după cea de-a doua execut, ie, raportat, i
+la momentul 0, sunt 30, 28, 20, 25, precizat, i care sunt duratele operat, iilor de intrare/ies, ire pentru
+două dintre aceste procese.
+(a) 7 s, i 13
+
+(b) 17 s, i 14
+
+(c) 5 s, i 17
+
+(d) 9 s, i 15
+
+18. Se consideră un set de patru procese, cu timpi estimat, i de execut, ie 2, 3, 4 s, i 5. Fiecare dintre
+procese are două execut, ii succesive separate printr-un ciclu de operat, ii de intrare/ies, ire. Planificarea init, ială a proceselor este FIFO, după momentul 15, algoritmul de planificare este modificat
+60
+
+SISTEME DE CALCUL
+la SJF. S, tiind că timpii de răspuns, după cea de-a doua execut, ie, raportat, i la momentul 0, sunt
+22, 25, 20, 30, s, i că timpii asociat, i operat, iilor de intrare/ies, ire sunt 3, 7, 13, 17, precizat, i care dintre
+procese nu pot avea operat, ii de intrare/ies, ire de durată 13.
+(a) 1 s, i 3
+
+(b) 2 s, i 3
+
+(c) 1 s, i 2
+
+(d) 3 s, i 4
+
+19. Se consideră un set de patru procese, cu timpi estimat, i de execut, ie 2, 3, 4 s, i 5. Fiecare dintre
+procese are două execut, ii succesive separate printr-un ciclu de operat, ii de intrare/ies, ire. Planificarea proceselor este SJF. S, tiind că timpii de răspuns, după cea de-a doua execut, ie, raportat, i la
+momentul 0, sunt 22, 25, 20, 30, precizat, i, în ordine crescătoare, care pot fi duratele operat, iilor de
+intrare/ies, ire pentru procesele 3 s, i 4, s, tiind că procesul 4 a revenit în sistem înaintea procesului
+2.
+(a) 3 s, i 13
+
+(b) 7 s, i 11
+
+(c) 3 s, i 7
+
+(d) 3 s, i 11
+
+20. Într-un sistem sunt definite patru pagini cadru s, i opt pagini virtuale. La un moment dat, în
+timpul utilizării unui algoritm de paginare, după înlocuirea unei pagini din memorie cu pagina
+3, maparea în memorie este 3, 6, 4, 2. S, tiind că bitul R este setat s, i pentru a treia pagină cadru,
+estimat, i maparea paginilor în memorie după încercări de acces către paginile 3, 7, 2, 1, 3, 5, 0 (cu
+ment, iunea că primul moment este cel din enunt, ), folosind algoritmul FIFO.
+(a) 0, 7, 5, 1
+(b) 0, 7, 1, 5
+
+(c) 5, 1, 7, 0
+(d) 3, 6, 4, 2
+
+(e) 2, 4, 6, 3
+
+21. Într-un sistem sunt definite patru pagini cadru s, i opt pagini virtuale. La un moment dat, în
+timpul utilizării unui algoritm de paginare, după înlocuirea unei pagini din memorie cu pagina
+3, maparea în memorie este 3, 6, 4, 2. S, tiind că bitul R este setat s, i pentru a treia pagină cadru,
+estimat, i maparea paginilor în memorie după încercări de acces către paginile 3, 7, 2, 1, 3, 5, 0 (cu
+ment, iunea că primul moment este cel din enunt, ), folosind algoritmul ‘a doua s, ansă’ (SC).
+(a) 3, 0, 1, 2
+(b) 2, 1, 0, 3
+
+(c) 3, 6, 4, 2
+(d) 3, 1, 0, 2
+
+(e) 3, 0, 1, 5
+
+22. Într-un sistem sunt definite patru pagini cadru s, i opt pagini virtuale. La un moment dat, în timpul
+utilizării unui algoritm de paginare, după înlocuirea unei pagini din memorie cu pagina 3, maparea
+în memorie este 3, 6, 4, 2. S, tiind că bitul R este setat s, i pentru a treia pagină cadru, estimat, i
+maparea paginilor în memorie după încercări de acces către paginile 3, 7, 2, 1, 3, 5, 0 (cu ment, iunea
+că primul moment este cel din enunt, ), folosind algoritmul OPTIM (după ultimul moment se
+consideră că paginile vor fi accesate în ordine strict crescătoare, de la 0 la 7).
+
+61
+
+SISTEME DE CALCUL
+(a) 3, 1, 0, 2
+(b) 3, 0, 1, 2
+
+(c) 2, 1, 0, 3
+(d) 3, 6, 4, 2
+
+(e) 0, 1, 2, 3
+
+23. Un calculator are 6 GB de RAM, din care sistemul de operare ocupă 1 GB. Procesele au toate 512
+MB s, i au aceleas, i caracteristici. Dacă obiectivul este o utilizare a CPU de 98%, care este timpul
+maxim de as, teptare I/O tolerat?
+(a) 2%
+
+(b) 85%
+
+(c) 50%
+
+(d) 67%
+
+24. Se consideră un sistem cu 10 procese concurente. Fiecare proces petrece 60% din timpul său
+as, teptând operat, ii I/O. Care va fi procentul de utilizare al procesorului?
+(a) ∼ 100%
+
+(b) ∼ 60%
+
+(c) ∼ 40%
+
+(d) ∼ 10%
+
+25. Într-un sistem cu fire de execut, ie, există câte o stivă pe fir sau o stivă pe proces atunci când sunt
+utilizate fire de execut, ie la nivel de utilizator s, i fire de execut, ie la nivel de kernel?
+(a) o stivă pe fir pentru ambele cazuri
+(b) o stivă pe fir pentru firele de execut, ie la nivel de utilizator, în timp ce firele de execut, ie la
+nivel de kernel folosesc o stivă pe proces
+(c) o stivă pe fir pentru firele de execut, ie la nivel de kernel, în timp ce firele de execut, ie la nivel
+de utilizator folosesc o stivă pe proces
+(d) o stivă pe proces pentru ambele cazuri
+26. Să considerăm o linie de asamblare de fabricat, ie în care diferit, i muncitori efectuează diferite sarcini
+pentru a asambla un produs:
+(1) Furnizorii de componente care furnizează componentele necesare pentru procesul de asamblare,
+(2) Asamblorii care primesc componentele s, i le asamblează în produsul final,
+(3) Inspectorii, care verifică calitatea produselor finite pentru a se asigura că îndeplinesc standardele cerute,
+(4) Ambalatorii, care primesc produsele inspectate s, i le ambalează pentru expediere sau distribut, ie,
+(5) Transportatorii care primesc produsele ambalate s, i le pregătesc pentru transport către client, i
+sau comerciant, i.
+Prin relat, ionarea acestui model cu procesele din UNIX, ce formă de comunicare între procese
+descrie cel mai bine această interact, iune?
+(a) funct, iile fork pentru a crea procese
+(b) semnale
+(c) pipe-uri
+(d) fire de execut, ie
+62
+
+SISTEME DE CALCUL
+27. Se consideră următorul cod C; câte procese copil sunt create la executarea acestui program?
+void main() {
+fork();
+fork();
+exit();
+fork();
+}
+(a) 2
+
+(b) 3
+
+(c) 4
+
+(d) 8
+
+28. Pentru adresa virtuală zecimală 20202, calculat, i numărul paginii virtuale s, i offset-ul, s, tiind că
+dimensiunea unei pagini este 4 KB:
+(a) 16, 3818
+
+(b) 4, 3818
+
+(c) 5, 202
+
+(d) 20, 202
+
+29. Aplicat, ia de mai jos cites, te dintr-un fis, ier ce cont, ine doar s, irul de caractere "licent, ă". Care va fi
+mesajul afis, at pe ecran dacă citirea este reus, ită:
+#define SIZE 4
+while((n = read(fd, buffer, SIZE)) > 0)
+{
+printf("%s\n",buffer);
+}
+(a) licent, ă
+(b) lice
+(c) lice
+nt, ă
+(d) lice
+nt, ăe
+30. Următorul fragment de cod ar trebui să folosească pipe-uri pentru a comunica între procesul copil
+s, i procesul părinte. Este ceva în neregulă cu mecanismul de pipe-uri din fragmentul de cod de
+mai jos?
+int pipe_fd[2];
+char buffer[512];
+pid_t pid=fork();
+if(pid<0){
+perror("error");
+exit(1);
+63
+
+SISTEME DE CALCUL
+
+}
+if(pid==0){
+write(pipe_fd[1],buffer,sizeof(buffer));
+} else{
+close(pipe_fd[0]);
+read(pipe_fd[0],buffer,sizeof(buffer));
+close(pipe_fd[1]);
+printf("%s\n",buffer);
+wait(NULL);
+}
+(a) pipe-ul nu este deschis
+(b) capetele pipe-ului nu sunt închise în procesul copil
+(c) capetele pipe-ului sunt corect închise în procesul părinte
+(d) capetele pipe-ului sunt închise incorect în procesul părinte
+31. Care dintre următoarele este o funct, ie a unui sistem de operare?
+(a) Managementul memoriei
+(b) Protect, ia antivirus
+(c) Managementul fis, ierelor
+(d) Managementul bazelor de date
+32. Un grup de proiectant, i de sisteme de operare ia în considerare modalităt, i de reducere a dimensiunii
+memoriei necesare în noul lor sistem de operare. Liderul echipei a sugerat să nu se deranjeze să
+salveze sect, iunea de text a programului în zona de swap, ci pur s, i simplu să-l pagineze direct din
+fis, ierul binar ori de câte ori este necesar. În ce condit, ii, funct, ionează această idee pentru textul
+programului?
+(a) funct, ionează pentru program dacă programul nu poate fi modificat
+(b) funct, ionează pentru date, dacă datele nu pot fi modificate
+(c) funct, ionează dacă datele sunt modificate s, i programul nu
+(d) funct, ionează dacă programul este modificat s, i datele nu sunt modificate
+
+Ret, ele de calculatoare
+1. Intr-un segment TCP ce câmp permite nodului receptor să determine dacă un segment TCP a
+fost deteriorat în timpul transmisiei?
+
+64
+
+SISTEME DE CALCUL
+(a) suma de control;
+
+(b) flags;
+
+(c) hash;
+
+(d) padding;
+
+2. Care dintre următoarele dispozitive se află la nivelul 2 OSI?
+(a) bridge(punte);
+(b) repeater(repetor);
+
+(c) router;
+(d) switch;
+
+(e) hub;
+
+3. Pentru a asigura integritatea datelor, protocoalele orientate pe conexiune (ca TCP) folosesc:
+(a) semnătura digitala;
+(b) certificate digitale;
+(c) algoritmi de criptare simetrici;
+(d) suma de control (checksum);
+4. Ordinea corectă a încapsulării mesajelor este:
+(a) date, cadre, pachete, segmente, biţi;
+(b) segmente, date, pachete, cadre, biţi;
+(c) date, segmente, pachete, cadre, biţi;
+(d) date, segmente, cadre, pachete, biţi;
+5. Ce afirmaţii sunt adevărate despre protocolul TCP?
+(a) este un protocol orientat de datagrame;
+(b) este un protocol orientat pe conexiune;
+(c) nu foloseşte sume de control;
+(d) asigură segmentare şi reasamblare;
+6. Care din următoarele adrese IP se încadrează în blocul CIDR din 115.64.4.0/22? (Alegeti două.)
+(a) 115.64.8.32;
+
+(b) 115.64.6.255;
+
+(c) 115.64.8.31;
+
+(d) 115.64.5.128;
+
+7. Ce informat, ii sunt cont, inute de headerul unui frame Ethernet?
+(a) sursa s, i destinat, ia adresei de hardware;
+(b) sursa s, i destinat, ia adresei de ret, ea;
+(c) codul de corectare a erorilor;
+(d) codul de autentificare;
+8. Care din următoarele afirmat, ii sunt adevărate referitor la switch?
+(a) crează un singur domeniu de coliziune s, i un singur domeniu de broadcast ;
+(b) crează diferite domenii de coleziune dar un singur domeniu de ibroadcast;
+(c) crează diferite domenii de coleziune s, i diferite domenii de broadcast;
+9. Care din următoarele adrese IP este un exemplu valid de adresă IPv4 ?
+65
+
+SISTEME DE CALCUL
+(a) 144.92.254.253;
+
+(b) 144-92-43-178;
+
+(c) 144.92.256.176;
+
+(d) 144,92,43,178;
+
+10. Care este semnifict, ia aconimului CSMA/CD?
+(a) Carrier Service Multiple Access with Collision Detection;
+(b) Carrier Sense Multiple Access with Collision Avoidance;
+(c) Carrier Sense Multiple Access with Collision Detection;
+(d) Control Sense Multiple Access with Collision Direction;
+11. Cum se comportă un switch când primes, te un cadru pe o anumită interfat, ă iar adresa destinat, ie
+nu este cunoscută?
+(a) interoghează serverul DNS;
+(b) trimite pachetul în întreaga ret, ea (broadcast);
+(c) ignoră pachetul;
+(d) interoghează nodul sursă;
+(e) trimite pachetul pe prima interfat, ă de ret, ea disponibilă;
+12. Întârzierea de propagare se referă la:
+(a) Timpul necesar pentru a "pune" pe sârmă un mesaj de o anumită dimensiune;
+(b) Numărul de bit, i aflat, i în propagare cu o anumită întârziere;
+(c) Numărul de octet, i transmis, i de o aplicat, ie;
+(d) Timpul necesar bit, ilor pentru a parcurge un canal de transmitere de o anumită lungime;
+13. Întârzierea de transmitere se referă la:
+(a) timpul necesar pentru a pune pe canalul de transmisie un mesaj de dimensiune M;
+(b) viteza necesara bit, ilor pentru a se propaga peste canal de o anumită lungime;
+(c) timpul necesar bit, ilor de a parcurge dus-întors canalul de comunicare;
+(d) timpul suficient pentru a transmite un 8 de bit, i pe fir;
+(e) timpul necesar a transmite un grup de bit, i peste un fir de o anumita lungime;
+14. Presupunând ca distant, a dintre Timis, oara s, i Arad este de 47 de kilometrii s, i avem o rată de
+transfer de 500Mbps, latent, a transmiterii unui mesaj de 1MB este de:
+(a) 16.0128 milisecunde
+(b) 0.546 M b/s
+(c) 16.235 milisecunde
+
+(d) 273.008 secunde
+(e) 8 ∗ 103 milisecunde
+66
+
+SISTEME DE CALCUL
+15. Dorit, i să folosit, i full-duplex Ethernet în locul half-duplex. Care sunt avantajele pentru ret, ea?
+(a) mai multe domenii de coliziune;
+
+(c) elimină nevoia de switch-uri;
+
+(b) ar trebui să fie mai rapid;
+
+(d) mai put, ine domenii de broadcast;
+
+16. Calculat, i BDP pentru o conexiune cu următoarele repere: R=1Gbps, Distanta=100km
+(a) 10 ∗ 22 M b
+
+(b) 50MB
+
+(c) 0.5Mb
+
+(d) 125b
+
+(e) 10MB
+
+17. Un ISP det, ine o ret, ea de 100Mbps s, i dores, te să aloce fiecărui client 50Mbps din lăt, imea de bandă
+disponibilă. Presupunem că fiecare client foloses, te 75% din lăt, imea de bandă, în medie de utilizare
+independentă. Care este probabilitatea statistică ca toată lăt, imea de bandă să fie utilizată?
+(a) 81/256
+
+(b) 16/128
+
+(c) 27/16
+
+(d) 1
+
+(e) 9/16
+
+18. Produsul Lăt, ime de Bandă – Întârziere (BDP) măsoară:
+(a) Cantitatea de date aflată în tranzit la un moment dat;
+(b) Dimensiunea maximă a unui mesaj transmis;
+(c) Cantitatea de date ce poate fi transmisă la un moment dat de un emit, ător;
+(d) Numărul de octet, i recept, ionat, i după o anumită întârziere;
+(e) Viteza cu care sunt transmise datele la o anumită întârziere;
+19. Calculat, i BDP pentru o conexiune cu următoarele repere: R=500Mbps, Distant, a=100km
+(a) 250Kb
+
+(b) 10 ∗ 22 M b
+
+(c) 250KB
+
+(d) 125b
+
+(e) 0.5Mb
+
+20. În modelul OSI nivelul ret, ea se ocupă cu:
+(a) Trimiterea de mesaje între două dispozitive
+(b) Trimiterea de mesaje peste mai multe legături
+(c) Codificarea semnalului folosind analiză Fourier
+(d) Crearea unei conexiuni între două aplicat, ii
+(e) Încapsularea mesajelor primite de la nivelul legătură de date
+21. Care este topologia ret, elei unde fiecare nod este legat de cele mai apropiate două noduri în as, a
+fel ca toată ret, eaua să formeze un cerc?
+
+67
+
+SISTEME DE CALCUL
+(a) magistrala;
+(b) inel;
+(c) magistrala-stea;
+
+(d) stea;
+(e) LAN;
+
+22. Care dintre afirmat, iile de mai jos sunt adevărate ?
+(a) Nivelul Fizic se preocupă cu transmiterea unui flux de bit, i peste un mediu de transmisie;
+(b) Nivelul Fizic se preocupă cu transmiterea fis, ierelor peste un mediu de transmisie;
+(c) Nivelul Fizic se preocupă cu segmentarea s, i compresia de octet, i peste un mediu de transmisie;
+(d) Nivelul Fizic se preocupă cu codificarea semnalelor sub formă de octet, i;
+(e) Nivelul Fizic se preocupă cu codificarea semnalului optic sub formă de impulsuri electrice
+binare;
+
+68
+
+SISTEME DE CALCUL
+
+Răspunsuri
+Arhitectura calculatoarelor
+
+Sisteme de operare
+
+1. (d)
+
+1. (a),(e)
+
+2. (c)
+
+2. (b),(c),(d)
+
+3. (b)
+
+3. (a)
+
+4. (a)
+
+4. (a)
+
+5. (a), (d)
+
+5. (d)
+
+6. (d)
+
+6. (d)
+
+7. (b)
+
+7. (c)
+
+8. (c)
+
+8. (b),(d)
+
+9. (a), (c)
+
+9. (b)
+
+10. (a)
+
+10. (c)
+
+11. (a), (b), (c)
+
+11. (b), (d)
+
+12. (a)
+
+12. (c)
+
+13. (c)
+
+13. (c)
+
+14. (a), (b)
+
+14. (b)
+
+15. (a), (c)
+
+15. (d)
+
+16. (c)
+
+16. (a)
+
+17. (c)
+
+17. (a)
+
+18. (a), (b), (c)
+
+18. (d)
+
+19. (a), (b)
+
+19. (c)
+
+20. (b)
+
+20. (b)
+
+21. (b), (c)
+
+21. (e)
+
+22. (b)
+
+22. (a)
+
+23. (b)
+
+23. (d)
+
+24. (a)
+
+24. (a)
+
+25. (a)
+
+69
+
+SISTEME DE CALCUL
+
+Sisteme de operare
+
+Ret, ele de calculatoare
+
+25. (a)
+
+1. (a)
+
+26. (c)
+
+2. (a),(d)
+
+27. (b)
+
+3. (d)
+
+28. (b)
+
+4. (c)
+
+29. (d)
+
+5. (b),(d)
+
+30. (a), (b), (d)
+
+6. (b),(d)
+
+31. (a), (c)
+
+7. (a)
+
+32. (a), (b)
+
+8. (b)
+9. (a)
+10. (c)
+11. (b)
+12. (d)
+13. (a)
+14. (c)
+15. (a), (b)
+16. (c)
+17. (e)
+18. (a)
+19. (a)
+20. (b)
+21. (b)
+22. (a)
+
+70
+
+
